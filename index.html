@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>jvm类加载</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="https://www.jq22.com/jquery/three.min.js"></script>
+		<script src="js/background.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/data.js"></script>
+		<link href="css/background.css" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+
+	<div class="stack" style="margin-bottom: 220px">
+		<div style="width: 100px;height: 100px">
+			<div id="variableName" style="color: #FFFFFF;font-size:30px">variableName</div>
+			<div id="type" style="color: #FFFFFF;font-size:30px">type</div>
+			<div id="valueStack" style="color: #FFFFFF;font-size:30px">value</div>
+			<div id="quoteStack" style="color: #FFFFFF;font-size:30px">quote</div>
+		</div>
+		<div class="cube__body">
+			<div class="cube__item cube__item--front"></div>
+			<div class="cube__item cube__item--back"></div>
+			<div class="cube__item cube__item--right"></div>
+			<div class="cube__item cube__item--left"></div>
+			<div class="cube__item cube__item--top"></div>
+			<div class="cube__item cube__item--bottom"></div>
+		</div>
+			<button style="background-color: white;height: 30px;width: 100px;margin-top: 700px">入</button>
+			<button style="background-color: red;height: 30px;width: 100px;margin-top: 20px">出</button>
+	</div>
+	<div class="heap" style="margin-bottom: 220px">
+		<div style="width: 100px;height: 100px">
+			<div id="name" style="color: #FFFFFF;font-size:30px">name</div>
+			<div id="value" style="color: #FFFFFF;font-size:30px">value</div>
+			<div id="quote" style="color: #FFFFFF;font-size:30px">quote</div>
+		</div>
+		<div class="cube__body">
+			<div class="cube__item cube__item--front"></div>
+			<div class="cube__item cube__item--back"></div>
+			<div class="cube__item cube__item--right"></div>
+			<div class="cube__item cube__item--left"></div>
+			<div class="cube__item cube__item--top"></div>
+			<div class="cube__item cube__item--bottom"></div>
+		</div>
+		<button onclick="getHeap()" style="background-color: white;height: 30px;width: 100px;margin-top: 700px">入</button>
+		<button style="background-color: red;height: 30px;width: 100px;margin-top: 20px">出</button>
+	</div>
+	<div class="methodArea" style="margin-bottom: 220px">
+		<div style="width: 100px;height: 100px">
+			<div id="classname" style="color: #FFFFFF;font-size:30px">classname</div>
+			<div id="method" style="color: #FFFFFF;font-size:30px">method</div>
+		</div>
+		<div class="cube__body">
+			<div class="cube__item cube__item--front"></div>
+			<div class="cube__item cube__item--back"></div>
+			<div class="cube__item cube__item--right"></div>
+			<div class="cube__item cube__item--left"></div>
+			<div class="cube__item cube__item--top"></div>
+			<div class="cube__item cube__item--bottom"></div>
+		</div>
+		<button onclick="getMethodarea()" style="background-color: white;height: 30px;width: 100px;margin-top: 700px">入</button>
+		<button style="background-color: red;height: 30px;width: 100px;margin-top: 20px">出</button>
+	</div>
+
+
+	</body>
+</html>

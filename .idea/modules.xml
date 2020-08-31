@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jvmclassload.iml" filepath="$PROJECT_DIR$/jvmclassload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jquery3d.iml" filepath="$PROJECT_DIR$/.idea/jquery3d.iml" />
     </modules>
   </component>
 </project>
