@@ -1,0 +1,15 @@
+package com.jvm.demo.controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StackController {
+    @GetMapping("/stack")
+    @CrossOrigin
+    StackVo stack(){
+        StackVo stackVo = new StackVo("test1","Sample","xxxx","hh");
+        return stackVo;
+    }
+}
