@@ -166,6 +166,7 @@ body {
     transform: translateZ(-75px);
     animation: cubeFrame 35s cubic-bezier(0.36, -0.03, 0.46, 0.95) infinite alternate;
     will-change: transform;
+    position: relative;
 }
 .cube__item {
     position: absolute;
@@ -249,4 +250,88 @@ body {
     100% {
         transform: translateZ(-75px) rotateX(-360deg) rotateY(360deg);
     }
+}
+
+/*动画*/
+.code{
+    width: 320px;
+    height: 50px;
+    opacity: 0.8;
+    margin:0 auto;/*水平居中*/
+    position: absolute;
+    text-align:center;
+}
+span{
+    line-height: 50px;/*竖直居中*/
+    color: #333333;
+}
+.box1{
+    display: none;
+    background: #ffffff;
+    margin-top: 0%;
+    -webkit-animation: box1 0.5s linear,box1_down 0.5s linear 1s;
+}
+@-webkit-keyframes box1{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box1_down{
+    from{margin-top: 0%}
+    to{margin-top: 180%}
+}
+.box2{
+    display: none;
+    background: #c8c8c8;
+    margin-top: 0%;
+    -webkit-animation: box2 0.5s linear,box2_down 0.5s linear 1s;
+}
+@-webkit-keyframes box2{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box2_down{
+    from{margin-top: 0%}
+    to{margin-top: 155%}
+}
+.box3{
+    display: none;
+    background: #ffffff;
+    margin-top: 0%;
+    -webkit-animation: box3 0.5s linear,box3_down 0.5s linear 1s;
+}
+@-webkit-keyframes box3{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box3_down{
+    from{margin-top: 0%}
+    to{margin-top: 130%}
+}
+.box4{
+    display: none;
+    background: #c8c8c8;
+    margin-top: 0%;
+    -webkit-animation: box4 0.5s linear,box4_down 0.5s linear 1s;
+}
+@-webkit-keyframes box4{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box4_down{
+    from{margin-top: 0%}
+    to{margin-top: 180%}
+}
+.box5{
+    display: none;
+    background: #ffffff;
+    margin-top: 0%;
+    -webkit-animation: box5 0.5s linear,box5_down 0.5s linear 1s;
+}
+@-webkit-keyframes box5{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box5_down{
+    from{margin-top: 0%}
+    to{margin-top: 180%}
 }
