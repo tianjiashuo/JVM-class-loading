@@ -36,6 +36,7 @@ function getHeap() {
             console.log(result)
             name = result.name;
             value = result.value;
+            quote = result.quote;
             $('#name').html(name);
             $('#value').html(value)
             $('#quote').html(quote);
@@ -66,8 +67,8 @@ function getStack() {
             quote = result.quote;
             $('#variableName').html(variableName);
             $('#type').html(type);
-            $('#value').html(value);
-            $('#quote').html(quote);
+            $('#valueStack').html(value);
+            $('#quoteStack').html(quote);
         },
         error : function(e){
             console.log(e.status);
