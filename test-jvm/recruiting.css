@@ -1,0 +1,309 @@
+.loading{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    background: #151617;
+}
+.loading .pic{
+    /*width: 64px;
+    height: 64px;*/
+    width: 200px;
+    height: 59px;
+    background: url("图/loading (2).gif");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.section{
+    background: url("图/1/1背景.png");
+    background-size: cover;
+    text-align: center;
+}
+
+
+/*JVM*/
+ul{
+    display: inline-block;
+}
+
+li{
+    width:350px;
+    height: 550px;
+    float:left;
+    margin:45px;
+    list-style-type:none;
+    background-color: rgba(120,120,120,0.23);
+    text-align:center;
+    opacity: 0.5;
+}
+p{
+    color:white;
+    font-size: 20px;
+    margin-top: 145%;
+}
+.code{
+    width: 320px;
+    height: 50px;
+    opacity: 0.8;
+    margin:0 auto;/*水平居中*/
+}
+span{
+    line-height: 50px;/*竖直居中*/
+    color: #333333;
+}
+.box1{
+    display: none;
+    background: #ffffff;
+    margin-top: -150%;
+    -webkit-animation: box1 0.5s linear,box1_down 0.5s linear 1s;
+}
+@-webkit-keyframes box1{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box1_down{
+    from{margin-top: -150%}
+    to{margin-top: -30%}
+}
+.box2{
+    display: none;
+    background: #c8c8c8;
+    margin-top: -135%;
+    -webkit-animation: box2 0.5s linear,box2_down 0.5s linear 1s;
+}
+@-webkit-keyframes box2{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box2_down{
+    from{margin-top: -150%}
+    to{margin-top: -35%}
+}
+.box3{
+    display: none;
+    background: #ffffff;
+    margin-top: -115%;
+    -webkit-animation: box3 0.5s linear,box3_down 0.5s linear 1s,box3_up 0.5s linear 5.7s,box3_disappear 0.5s linear 6.2s;
+    /*-webkit-animation: box3 0.5s linear,box3_down 0.5s linear 1s,box3_disappear 0.5s linear 5.7s;*/
+}
+@-webkit-keyframes box3{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box3_down{
+    from{margin-top: -115%}
+    to{margin-top: -35%}
+}
+@-webkit-keyframes box3_up{
+    from{margin-top: -35%}
+    to{margin-top: -115%}
+}
+@-webkit-keyframes box3_disappear{
+    from{opacity: 0.8}
+    to{opacity: 0}
+}
+.box4{
+    display: none;
+    background: #c8c8c8;
+    margin-top: -150%;
+    -webkit-animation: box4 0.5s linear,box4_down 0.5s linear 1s;
+}
+@-webkit-keyframes box4{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box4_down{
+    from{margin-top: -150%}
+    to{margin-top: -30%}
+}
+.box5{
+    display: none;
+    background: #ffffff;
+    margin-top: -150%;
+    -webkit-animation: box5 0.5s linear,box5_down 0.5s linear 1s,box5_up 0.5s linear 3s,box5_disappear 0.5s linear 3.5s;
+}
+@-webkit-keyframes box5{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+@-webkit-keyframes box5_down{
+    from{margin-top: -150%}
+    to{margin-top: -30%}
+}
+@-webkit-keyframes box5_up{
+    from{margin-top: -30%}
+    to{margin-top: -150%}
+}
+@-webkit-keyframes box5_disappear{
+    from{opacity: 0.8}
+    to{opacity: 0}
+}
+
+
+/*section1*/
+#p1-1{
+    display: none;
+    width: 412px;
+    height: 390px;
+    margin: auto;
+    /*margin-top: -64%;*/
+    background: aqua;
+}
+.logo1{
+    display: block;
+    margin: auto;
+    opacity: 1;
+    -webkit-animation: logo1 1s;
+    width: 325px;
+    height: 255px;
+    margin-top: -192px;
+}
+@-webkit-keyframes logo1{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+.sentence1{/*TWT STUDIO*/
+    width:395px;
+    height:40px;
+    display: none;
+    margin: auto;
+    margin-top: -29px;
+    opacity: 1;
+    -webkit-animation: sentence1 0.5s linear,sentence1_disappear 0.5s linear 1.9s;
+}
+@-webkit-keyframes sentence1{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+@-webkit-keyframes sentence1_disappear{
+    from{opacity: 1}
+    to{opacity: 0}
+}
+.sentence2{/*WE WANT YOU*/
+    width:390px;
+    height:36px;
+    display: none;
+    visibility: visible;
+    margin: auto;
+    margin-top: 15px;
+    opacity: 1;
+    -webkit-animation: sentence2 0.5s linear ,sentence2_up 0.5s linear 1s;
+}
+@-webkit-keyframes sentence2{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+@-webkit-keyframes sentence2_up{
+    from{margin-top: 15px}
+    to{margin-top: -22px}
+}
+.logo2{
+    display:none;
+    margin: auto;
+    opacity: 1;
+    -webkit-animation: logo2 0.75s;
+    position: absolute;
+    width: 267px;
+    height: 257px;
+    margin-top: -255px;
+    margin-left: 72px;
+}
+@-webkit-keyframes logo2{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+.sentence3{
+    width:385px;
+    height:129px;
+    display: none;
+    margin: auto;
+    margin-top: 15px;
+    opacity: 1;
+    -webkit-animation: sentence3 0.5s linear;
+}
+@-webkit-keyframes sentence3{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+@media (max-height: 1024px) {
+    #p1-1{
+        width: 381px;
+        height: 348px;
+    }
+    .logo1{
+        width: 275px;
+        height: 205px;
+        margin-top: -192px;
+    }
+    .sentence1{/*TWT STUDIO*/
+        width:340px;
+        height:34px;
+        margin-top: -6px;
+    }
+    .sentence2{/*WE WANT YOU*/
+        width:335px;
+        height:33px;
+        margin-top: 15px;
+    }
+    .logo2{
+        width: 217px;
+        height: 216px;
+        margin-top: -209px;
+        margin-left: 81px;
+    }
+    .sentence3{
+        width:333px;
+        height:114px;
+        margin-top: 15px;
+    }
+}
+@media (max-height: 824px) {
+    #p1-1{
+        width: 290px;
+        height: 183px;
+    }
+    .logo1{
+        width: 150px;
+        height: 150px;
+        margin-top: -192px;
+    }
+    .sentence1{/*TWT STUDIO*/
+        width:230px;
+        height:22px;
+        margin-top: 15px;
+    }
+    .sentence2{/*WE WANT YOU*/
+        width:230px;
+        height:22px;
+        margin-top: 15px;
+    }
+    @-webkit-keyframes sentence2_up{
+        from{margin-top: 15px}
+        to{margin-top: -22px}
+    }
+    .logo2{
+        width: 150px;
+        height: 150px;
+        margin-top: -152px;
+        margin-left: 71px;
+    }
+    .sentence3{
+        width:220px;
+        height:82px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
