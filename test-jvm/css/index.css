@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #1e1f26;
+}
+
+#header{
+    height:7%;
+    display: flex;
+    align-items: Center;
+}
+
+#logo{
+    margin-top: 5px;
+}
+
+#title{
+    color: #ffffff;
+    font-size: 3.5em;
+    font-family: -webkit-pictograph;
+}
+
+#loadingArea{
+    height: 50%;
+    border: 37px solid #333642;
+    border-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heap{
+    float: left;
+    height: 100%;
+    flex: 1;
+    border-right: 37px solid #333642;
+}
+
+.stack{
+    float: left;
+    height: 100%;
+    flex: 1;
+    border-right: 37px solid #333642;
+}
+
+.methodArea{
+    float: right;
+    height: 100%;
+    flex: 1;
+}
+
+.methodHeader{
+    height: 10%;
+    background-color: #1a1b1f;
+    color: #aaaebc;
+    font-size: 2.5em;
+    border-bottom: 2px solid #78787840;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.methodName{
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.buttonShow{
+    border-radius: 5px;
+    float: right;
+    font-size: 0.8em;
+    color: white;
+    background-color: #444857;
+    cursor:pointer;
+    border: 0;
+    transform: translateY(-83%);
+}
+
+.methodBody{
+    height: 90%;
+    color: #fff;
+    font-size: 1.7em;
+    overflow-y:scroll
+}
+
+#methodAreaData{
+    padding-left: 60px;
+}

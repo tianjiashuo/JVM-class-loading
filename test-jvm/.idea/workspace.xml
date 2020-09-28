@@ -1,36 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03a0c627-9add-46f7-ab34-0d72176c8766" name="Default Changelist" comment="" />
+    <list default="true" id="46e0b842-c9c3-4d42-ba40-e109093055ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/test-jvm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recruiting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqufull/jquery.easings.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqufull/jquery.fullPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqufull/jquery.fullPage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqufull/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruiting.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruiting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruiting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/1.1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/1.2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/1底图.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/1背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/TWT  STUDIO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/WE  WANT  YOU 拷贝.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/logo全.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/logo全_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/twtlogo .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/twtlogo_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/一朵云.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/一朵云_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/三角.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/上划箭头.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/全部云.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/全部云_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/天外天工作室 纳新.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/画板 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1/画板 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/1111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/11111111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/2wenzi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/2wenzi_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/2zong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/2zong1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/qianbeijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/wenzi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/wenzi_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/wenzi_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/产品.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/椭圆 4 2.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/椭圆 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/画板 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/程序员.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/2/设计师.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/22222.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/chanpin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/s.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/s.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/s.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/s.4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/上划箭头.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/产品.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/产品原型.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/产品经理.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/产品经理人物.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/信封.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/思维导图2.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/思维导图2.0_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/思维导图2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/思维导图2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/灯泡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/画板 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/画板 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/画板 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/需求文档.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3/需求文档2.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/3333.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/ai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/au.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/dw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/lr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/pr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/ps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/qianbeijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/微.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/微北洋.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/文字.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/画板 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/4/设计师图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/5/chengxuyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/5/上划箭头.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/5/画板 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/5/程序员.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/what’s the next1_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/what’s the next_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/下载.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/微北洋.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/手机.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/手机1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/手机2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/正在下载.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/浅色.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/深色.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/画板 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/问号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/问号1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/6/问号2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/How about you_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/bianyiqi(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/cheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/daima.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/erweima.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/erweima.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/loading (2).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/yi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图/手机下边.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-design/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web-design/js/data.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="recruiting" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>transition2</find>
-      <find>203px</find>
-      <find>left</find>
-      <find>arrow</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1grpQNrTZreXzTN4wN8BStindUM" />
+  <component name="ProjectId" id="1i8fvqXHP9cukIaoiuO2EPx8mTj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,13 +137,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TWT/exercise/l" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test-jvm/recruiting.css" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,145 +159,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03a0c627-9add-46f7-ab34-0d72176c8766" name="Default Changelist" comment="" />
-      <created>1562592999658</created>
+      <changelist id="46e0b842-c9c3-4d42-ba40-e109093055ef" name="Default Changelist" comment="" />
+      <created>1601294372941</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562592999658</updated>
-      <workItem from="1562593000965" duration="997000" />
-      <workItem from="1562639378387" duration="1785000" />
-      <workItem from="1562641201970" duration="1788000" />
-      <workItem from="1562643038579" duration="1119000" />
-      <workItem from="1562644850225" duration="256000" />
-      <workItem from="1562655888211" duration="1735000" />
-      <workItem from="1562657754898" duration="1240000" />
-      <workItem from="1562659056707" duration="1786000" />
-      <workItem from="1562660900815" duration="1782000" />
-      <workItem from="1562662709085" duration="1788000" />
-      <workItem from="1562664521794" duration="1334000" />
-      <workItem from="1562672024271" duration="1786000" />
-      <workItem from="1562673838648" duration="1787000" />
-      <workItem from="1562675649158" duration="1788000" />
-      <workItem from="1562677563452" duration="1791000" />
-      <workItem from="1562679489822" duration="1788000" />
-      <workItem from="1562681306522" duration="1381000" />
-      <workItem from="1562726998617" duration="1786000" />
-      <workItem from="1562728815848" duration="1423000" />
-      <workItem from="1562730661422" duration="936000" />
-      <workItem from="1562742049049" duration="1788000" />
-      <workItem from="1562743858839" duration="1789000" />
-      <workItem from="1562746786483" duration="720000" />
-      <workItem from="1562748599435" duration="1823000" />
-      <workItem from="1562750446572" duration="1789000" />
-      <workItem from="1562752261553" duration="123000" />
-      <workItem from="1562761178839" duration="1787000" />
-      <workItem from="1562762996459" duration="1930000" />
-      <workItem from="1562764948828" duration="1023000" />
-      <workItem from="1562813462837" duration="1787000" />
-      <workItem from="1562815593254" duration="1795000" />
-      <workItem from="1562817413666" duration="1794000" />
-      <workItem from="1562819234716" duration="236000" />
-      <workItem from="1562829411218" duration="1305000" />
-      <workItem from="1562832284130" duration="1361000" />
-      <workItem from="1562845364871" duration="1787000" />
-      <workItem from="1562847175495" duration="1787000" />
-      <workItem from="1562848987856" duration="1790000" />
-      <workItem from="1562850799438" duration="1787000" />
-      <workItem from="1562852609154" duration="1770000" />
-      <workItem from="1562898499164" duration="1787000" />
-      <workItem from="1562900308807" duration="1786000" />
-      <workItem from="1562902125959" duration="1786000" />
-      <workItem from="1562903936299" duration="1341000" />
-      <workItem from="1562914555541" duration="1471000" />
-      <workItem from="1562922093032" duration="603000" />
-      <workItem from="1562924155652" duration="40000" />
-      <workItem from="1562934173224" duration="1762000" />
-      <workItem from="1562935974171" duration="1004000" />
-      <workItem from="1562937786488" duration="449000" />
-      <workItem from="1563264797815" duration="609000" />
-      <workItem from="1563266307348" duration="7000" />
-      <workItem from="1563266924386" duration="618000" />
-      <workItem from="1563269780019" duration="1924000" />
-      <workItem from="1563271728324" duration="1405000" />
-      <workItem from="1563331807873" duration="604000" />
-      <workItem from="1563333862181" duration="1792000" />
-      <workItem from="1563335686046" duration="1795000" />
-      <workItem from="1563337503152" duration="814000" />
-      <workItem from="1563347156385" duration="1786000" />
-      <workItem from="1563348972320" duration="562000" />
-      <workItem from="1563350451394" duration="3228000" />
-      <workItem from="1563356098201" duration="1453000" />
-      <workItem from="1563358371097" duration="702000" />
-      <workItem from="1563366064754" duration="599000" />
-      <workItem from="1563369446575" duration="1784000" />
-      <workItem from="1563371269477" duration="1591000" />
-      <workItem from="1563373078824" duration="863000" />
-      <workItem from="1563416939926" duration="1790000" />
-      <workItem from="1563418914464" duration="81000" />
-      <workItem from="1563419451023" duration="1555000" />
-      <workItem from="1563421396127" duration="1407000" />
-      <workItem from="1563432548699" duration="1781000" />
-      <workItem from="1563434359650" duration="1034000" />
-      <workItem from="1563436259542" duration="640000" />
-      <workItem from="1563438254735" duration="869000" />
-      <workItem from="1563502402763" duration="920000" />
-      <workItem from="1563504297971" duration="1712000" />
-      <workItem from="1563506247176" duration="1504000" />
-      <workItem from="1563508809084" duration="280000" />
-      <workItem from="1563510356828" duration="60000" />
-      <workItem from="1563510847945" duration="998000" />
-      <workItem from="1563516700221" duration="1236000" />
-      <workItem from="1563519065079" duration="1408000" />
-      <workItem from="1563520802852" duration="1429000" />
-      <workItem from="1563522469096" duration="1100000" />
-      <workItem from="1563524347326" duration="1788000" />
-      <workItem from="1563529013661" duration="1788000" />
-      <workItem from="1563530825537" duration="1023000" />
-      <workItem from="1563541065242" duration="62000" />
-      <workItem from="1563541150082" duration="484000" />
-      <workItem from="1563541658634" duration="684000" />
-      <workItem from="1565753154337" duration="877000" />
-      <workItem from="1565755044214" duration="1788000" />
-      <workItem from="1565756866352" duration="1341000" />
-      <workItem from="1565768251788" duration="1835000" />
-      <workItem from="1565770216917" duration="1788000" />
-      <workItem from="1565772121259" duration="1787000" />
-      <workItem from="1565773983952" duration="826000" />
-      <workItem from="1565776694450" duration="288000" />
-      <workItem from="1565777350590" duration="1044000" />
-      <workItem from="1565846310694" duration="2551000" />
-      <workItem from="1565856962987" duration="776000" />
-      <workItem from="1565859094921" duration="91000" />
-      <workItem from="1566131398558" duration="242000" />
-      <workItem from="1566171832439" duration="294000" />
-      <workItem from="1566172171872" duration="333000" />
-      <workItem from="1566173963783" duration="1787000" />
-      <workItem from="1566175774808" duration="1393000" />
-      <workItem from="1566131398558" duration="280000" />
-      <workItem from="1566171630637" duration="1495000" />
-      <workItem from="1566301314003" duration="1708000" />
-      <workItem from="1566304222698" duration="612000" />
-      <workItem from="1566342253861" duration="1251000" />
-      <workItem from="1566373063447" duration="4910000" />
-      <workItem from="1566384332572" duration="3522000" />
-      <workItem from="1566428580712" duration="7167000" />
-      <workItem from="1566462317520" duration="15000" />
-      <workItem from="1566463343708" duration="1875000" />
-      <workItem from="1566470443941" duration="4912000" />
-      <workItem from="1566515854764" duration="1769000" />
-      <workItem from="1566517649240" duration="1788000" />
-      <workItem from="1566519460065" duration="1788000" />
-      <workItem from="1566521277643" duration="1787000" />
-      <workItem from="1566523090863" duration="1789000" />
-      <workItem from="1566524908714" duration="1634000" />
-      <workItem from="1566526790598" duration="1837000" />
-      <workItem from="1566528748894" duration="1788000" />
-      <workItem from="1566530730376" duration="406000" />
-      <workItem from="1566543273157" duration="1650000" />
-      <workItem from="1566815633180" duration="1187000" />
-      <workItem from="1598882549287" duration="294000" />
-      <workItem from="1598882884125" duration="5536000" />
-      <workItem from="1598927875054" duration="4440000" />
+      <updated>1601294372941</updated>
+      <workItem from="1601294374060" duration="10591000" />
     </task>
     <servers />
   </component>
@@ -209,9 +172,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1598884262102">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1601296076274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598884262102" />
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601296076274" />
   </component>
 </project>

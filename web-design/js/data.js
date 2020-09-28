@@ -21,6 +21,25 @@ function getMethodarea() {
     //     }
     // });
 
+    $.ajax({
+        url : "http://localhost:8080/methodTest",
+        type : "get",
+        async : false,
+        dataType : "json",
+        success : function(result) {
+            console.log("!!!!!!!!!!!!!!!!!!!")
+            console.log(result[0]);
+            classname = result[1];
+            method = result[2];
+            $('#classname').html(classname);
+            $('#method').html(method);
+        },
+        error : function(e){
+            console.log(e.status);
+            console.log(e.responseText);
+        }
+    });
+
     setTimeout(function () {
         $('.box5').css('display', 'block');//1出现
     }, 500);
