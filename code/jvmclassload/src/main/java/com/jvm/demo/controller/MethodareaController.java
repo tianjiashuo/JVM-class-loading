@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 @RestController
 public class MethodareaController {
     test testM = new test();
@@ -16,7 +18,7 @@ public class MethodareaController {
     }
     @GetMapping("/methodTest")
     @CrossOrigin
-    String testMethod(){
+    Map<Integer, String> testMethod(){
         return testM.testAdd();
     }
 }
