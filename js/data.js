@@ -3,23 +3,30 @@ function getMethodarea() {
     var classname = '';
     var method = '';
 
-    $.ajax({
-        url : "http://localhost:8080/methodarea",
-        type : "get",
-        async : false,
-        dataType : "json",
-        success : function(result) {
-            console.log(result)
-            classname = result.classname;
-            method = result.method;
-            $('#classname').html(classname);
-            $('#method').html(method);
-        },
-        error : function(e){
-            console.log(e.status);
-            console.log(e.responseText);
-        }
-    });
+    // $.ajax({
+    //     url : "http://localhost:8080/methodarea",
+    //     type : "get",
+    //     async : false,
+    //     dataType : "json",
+    //     success : function(result) {
+    //         console.log(result)
+    //         classname = result.classname;
+    //         method = result.method;
+    //         $('#classname').html(classname);
+    //         $('#method').html(method);
+    //     },
+    //     error : function(e){
+    //         console.log(e.status);
+    //         console.log(e.responseText);
+    //     }
+    // });
+
+    setTimeout(function () {
+        $('.box5').css('display', 'block');//1出现
+    }, 500);
+    setTimeout(function () {
+        $('.box5').css('margin-top', '180%');//1下降
+    }, 2000);
 }
 
 function getHeap() {
@@ -46,6 +53,14 @@ function getHeap() {
             console.log(e.responseText);
         }
     });
+
+
+    setTimeout(function () {
+        $('.box4').css('display', 'block');//1出现
+    }, 500);
+    setTimeout(function () {
+        $('.box4').css('margin-top', '180%');//1下降
+    }, 2000);
 }
 
 function getStack() {
@@ -54,6 +69,7 @@ function getStack() {
     var type = '';
     var value = '';
     var quote = '';
+
     $.ajax({
         url : "http://localhost:8080/stack",
         type : "get",
@@ -75,4 +91,23 @@ function getStack() {
             console.log(e.responseText);
         }
     });
+    setTimeout(function () {
+        $('.box1').css('display', 'block');//1出现
+    }, 500);
+    setTimeout(function () {
+        $('.box1').css('margin-top', '180%');//1下降
+    }, 2000);
+    setTimeout(function () {
+        $('.box2').css('display', 'block');//堆2出现
+    }, 2500);
+    setTimeout(function () {
+        $('.box2').css('margin-top', '155%');
+    }, 4000);
+    setTimeout(function () {
+        $('.box3').css('display', 'block');//堆3出现
+    }, 4500);
+    setTimeout(function () {
+        $('.box3').css('margin-top', '130%');
+    }, 6000);
+
 }
