@@ -2,9 +2,10 @@ html, body {
     height: 100%;
     margin: 0;
     /*background-color: #1e1f26;*/
+    overflow: hidden;
 }
 
-#startPage{
+.startPage{
     height: 100%;
     margin: 0;
     background:url(../图/background.jpg) no-repeat;
@@ -13,6 +14,15 @@ html, body {
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
+}
+.startPageAni{
+    opacity: 1;
+    -webkit-animation: startPageDis 0.5s linear 0.5s;
+}
+
+@-webkit-keyframes startPageDis{
+    from{opacity: 1}
+    to{opacity: 0}
 }
 
 #leftDiv{
@@ -49,6 +59,9 @@ html, body {
     cursor:pointer;
     border: 0;
 }
+.startButton:hover{
+    background: #3eb15e;
+}
 
 #rightDiv{
     margin-top: 10%;
@@ -56,23 +69,34 @@ html, body {
     flex: 1;
     padding-left: 5%;
     padding-right: 5%;
+    z-index: 2;
 }
 
 .heapDiv{
+    visibility:visible;
     background: #1d1e22;
     width: 620px;
     height: 300px;
     margin: 0 auto;
     box-shadow: 15px 10px 20px #101011b0;
-    /*-webkit-animation: heapDiv 0.5s linear,box1_down 0.5s linear 1s;*/
 }
-/*@-webkit-keyframes box1{*/
-/*    from{opacity: 0}*/
-/*    to{opacity: 0.8}*/
-/*}*/
+.heapDivDisapper{
+    opacity: 1;
+    margin-left: 0;
+    -webkit-animation: heapDivMove 1s linear,heapDivDis 0.5s linear 0.5s;
+}
+@-webkit-keyframes heapDivMove{
+    from{margin-left: 0}
+    to{margin-left: 80%}
+}
+@-webkit-keyframes heapDivDis{
+    from{opacity: 1}
+    to{opacity: 0}
+}
 
 
 .stackDiv{
+    visibility:visible;
     background: #1d1e22;
     width: 620px;
     height: 300px;
@@ -80,14 +104,43 @@ html, body {
     margin: 20px;
     box-shadow: 15px 10px 20px #101011b0;
 }
+.stackDivDisapper{
+    opacity: 1;
+    margin-right: 20px;
+    -webkit-animation: stackDivMove 0.9s linear,stackDivDis 0.5s linear 0.4s;
+}
+@-webkit-keyframes stackDivMove{
+    from{ margin-right: 20px}
+    to{ margin-right: -38%}
+}
+@-webkit-keyframes stackDivDis{
+    from{opacity: 1}
+    to{opacity: 0}
+}
+
 
 .methodAreaDiv{
+    visibility:visible;
     background: #1d1e22;
     width: 620px;
     height: 300px;
     float: left;
     box-shadow: 15px 10px 20px #101011b0;
 }
+.methodAreaDivDisapper{
+    opacity: 1;
+    margin-left: 0;
+    -webkit-animation: methodAreaDivMove 1s linear,methodAreaDivDis 0.5s linear 0.5s;
+}
+@-webkit-keyframes methodAreaDivMove{
+    from{margin-left: 0}
+    to{margin-left: 80%}
+}
+@-webkit-keyframes methodAreaDivDis{
+    from{opacity: 1}
+    to{opacity: 0}
+}
+
 
 .demoHeader{
     height: 35px;
@@ -128,11 +181,25 @@ html, body {
     margin-top: 7px;
 }
 
+#transBottom{
+    width: 128%;
+    height: 126%;
+    background: #c7c9d357;
+    opacity: 0.3;
+    position: absolute;
+    transform: rotate(-57deg);
+    left: 15%;
+}
+
+
+
+
+
 #mainPage{
     height: 100%;
     margin: 0;
     background-color: #1e1f26;
-    display: none;
+    display: block;
 }
 
 #header{
