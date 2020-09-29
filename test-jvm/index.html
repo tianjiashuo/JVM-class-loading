@@ -14,42 +14,103 @@
 
 
 	<body>
-	<div id="header">
-		<img id="logo" src="图/java.png" style="height: 90px"/>
-		<span id="title">JVM Class Loading</span>
+	<div id="startPage">
+		<div id="leftDiv">
+			<img src="图/java.png" style="height: 150px; margin-left: 10px"/>
+			<div id="text">
+				<span class="textTitle">JVM Class Loading</span>
+				<p class="textContent">
+					The purpose of this project is to provide a more intuitive and detailed GC control tool to help monitor, manage and improve the GC algorithm.
+				</p>
+			</div>
+			<button class="startButton" onclick="startClick();">Start</button>
+		</div>
+		<div id="rightDiv">
+			<div class="heapDiv">
+				<div class="demoHeader">
+					<span class="demoName">HEAP</span>
+					<button class="demoButton">show</button>
+				</div>
+				<div class="demoBody">
+					<ul class="demoData">
+						<li class="demoData2">549 83768  [Ljava.util.Hashtable$Entry;</li>
+						<li class="demoData3">2070 82800  java.util.WeakHashMap$Entry</li>
+						<li class="demoData1">2572 82304  java.sql.Timestamp</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="stackDiv">
+				<div class="demoHeader">
+					<span class="demoName">STACK</span>
+					<button class="demoButton">show</button>
+				</div>
+				<div class="demoBody">
+					<ul class="demoData">
+						<li class="demoData3">LOCALVARIABLE result I L2 L3 2</li>
+						<li class="demoData1">MAXSTACK = 2</li>
+						<li class="demoData2">MAXLOCALS = 3</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="methodAreaDiv">
+				<div class="demoHeader">
+					<span class="demoName">METHOD AREA</span>
+					<button class="demoButton">show</button>
+				</div>
+				<div class="demoBody">
+					<ul class="demoData">
+						<li class="demoData1">java.lang.Thread .getStackTrace</li>
+						<li class="demoData2">com.jvm.demo.service.printMethod .printTrack2</li>
+						<li class="demoData3">com.jvm.demo.service.add .add</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 
-	<div id="loadingArea">
-		<div class="heap">
-			<div class="methodHeader">
-				<span class="methodName">HEAP</span>
-				<button class="buttonShow">show</button>
-			</div>
-			<div class="methodBody">
-
-			</div>
+	<div id="mainPage">
+		<div id="header">
+			<img id="logo" src="图/java.png" style="height: 90px"/>
+			<span class="title">JVM Class Loading</span>
 		</div>
 
-		<div class="stack">
-			<div class="methodHeader">
-				<span class="methodName">STACK</span>
-				<button class="buttonShow">show</button>
-			</div>
-			<div class="methodBody">
+		<div id="loadingArea">
+			<div class="heap">
+				<div class="methodHeader">
+					<span class="methodName">HEAP</span>
+					<button class="buttonShow">show</button>
+				</div>
+				<div class="methodBody">
 
+				</div>
 			</div>
-		</div>
 
-		<div class="methodArea">
-			<div class="methodHeader">
-				<span class="methodName">METHOD AREA</span>
-				<button class="buttonShow" onclick="getMethodarea()">show</button>
+			<div class="stack">
+				<div class="methodHeader">
+					<span class="methodName">STACK</span>
+					<button class="buttonShow">show</button>
+				</div>
+				<div class="methodBody">
+
+				</div>
 			</div>
-			<div class="methodBody">
-				<ol id="methodAreaData"></ol>
+
+			<div class="methodArea">
+				<div class="methodHeader">
+					<span class="methodName">METHOD AREA</span>
+					<button class="buttonShow" onclick="getMethodarea()">show</button>
+				</div>
+				<div class="methodBody">
+					<ol id="methodAreaData"></ol>
+				</div>
 			</div>
 		</div>
 	</div>
+
 
 
 	</body>
