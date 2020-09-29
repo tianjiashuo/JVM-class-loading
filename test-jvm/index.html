@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>jvm类加载</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+		<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script src="https://www.jq22.com/jquery/three.min.js"></script>
+		<script src="js/data.js"></script>
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+
+	<body>
+	<div id="header">
+		<img id="logo" src="图/java.png" style="height: 90px"/>
+		<span id="title">JVM Class Loading</span>
+	</div>
+
+	<div id="loadingArea">
+		<div class="heap">
+			<div class="methodHeader">
+				<span class="methodName">HEAP</span>
+				<button class="buttonShow">show</button>
+			</div>
+			<div class="methodBody">
+
+			</div>
+		</div>
+
+		<div class="stack">
+			<div class="methodHeader">
+				<span class="methodName">STACK</span>
+				<button class="buttonShow">show</button>
+			</div>
+			<div class="methodBody">
+
+			</div>
+		</div>
+
+		<div class="methodArea">
+			<div class="methodHeader">
+				<span class="methodName">METHOD AREA</span>
+				<button class="buttonShow" onclick="getMethodarea()">show</button>
+			</div>
+			<div class="methodBody">
+				<ol id="methodAreaData"></ol>
+			</div>
+		</div>
+	</div>
+
+
+	</body>
+</html>
