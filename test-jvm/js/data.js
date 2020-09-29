@@ -50,13 +50,13 @@ startClick = function () {
         $('.methodAreaDiv').css('margin-left', '80%');
         $('.methodAreaDiv').css('visibility', 'hidden');
     }, 1900);
-    setTimeout(function () {
-        $(".startPage").addClass("startPageDisapper");
-    }, 1200);
     // setTimeout(function () {
-    //     $('#mainPage').css('display', 'block');
-    //     $('#startPage').css('display', 'none');
-    // }, 1950);
+    //     $(".startPage").addClass("startPageDisapper");
+    // }, 1200);
+    setTimeout(function () {
+        $('#mainPage').css('display', 'block');
+        $('#startPage').css('display', 'none');
+    }, 1950);
 }
 
 
