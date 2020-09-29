@@ -28,9 +28,45 @@ function getMethodarea() {
             console.log(e.responseText);
         }
     });
-
 }
 
+startClick = function () {
+    setTimeout(function () {
+        $('.heapDiv').css('margin-left', '155%');
+    }, 500);
+    $('#mainPage').css('display', 'block');
+    $('#startPage').css('display', 'none');
+}
+
+
+// window.onload = function(){
+//     for(var i=1;i<=3;i++){
+//         var randomNum = parseInt(Math.ceil(Math.random()*4));
+//         console.log(randomNum);
+//         var color = '';
+//         var maName = 'maDemoData';
+//         maName = maName + i;
+//         console.log(maName);
+//         switch(randomNum) {
+//             case 0:
+//                 color = '#de7300';
+//                 break;
+//             case 1:
+//                 color = '#7a99ad';
+//                 break;
+//             case 2:
+//                 color = '#e1ca72';
+//                 break;
+//             case 3:
+//                 color = '#9f8198';
+//                 break;
+//             default:
+//                 color = '#ffffff';
+//         }
+//         $(maName).css('color', color);
+//         console.log("~~~~~~~");
+//     }
+// }
 
 
 
