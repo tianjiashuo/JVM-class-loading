@@ -258,8 +258,8 @@ html, body {
 
 .methodName{
     position: relative;
-    display: block;
-    top: 50%;
+    /*display: block;*/
+    top: 18%;
     transform: translateY(-50%);
 }
 
@@ -271,16 +271,56 @@ html, body {
     background-color: #444857;
     cursor:pointer;
     border: 0;
-    transform: translateY(-83%);
+    transform: translateY(52%);
 }
 
 .methodBody{
     height: 90%;
     color: #fff;
     font-size: 1.7em;
-    overflow-y:scroll
+    /*overflow-y:scroll;*/
 }
 
 #methodAreaData{
     padding-left: 60px;
+    width: 85%;
 }
+
+.zUIpanelScrollBox, .zUIpanelScrollBar {
+    width: 10px;
+    top: 4px;
+    right: 2px;
+    border-radius: 5px;
+
+}
+
+.zUIpanelScrollBox {
+    background: black;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+
+.zUIpanelScrollBar {
+    background: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#demo1 {
+    /*width: 50%;*/
+    height: 90%;
+    border: 2px solid #1F1F1F;
+    margin: 20px auto;
+    overflow: hidden;
+}
+/*#demo {*/
+/*    width: 500px;*/
+/*    height: 300px;*/
+/*    border: 2px solid #1F1F1F;*/
+/*    margin: 20px auto;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.box {*/
+/*    height: 300px;*/
+/*    width: 500px;*/
+/*}*/

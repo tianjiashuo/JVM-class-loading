@@ -16,9 +16,14 @@ public class add {
         //方法二
         //Hash
         this.map=pr.printTrack2();
-        //System.out.println(pr.result);
+        //System.out.println(r.result);
         this.testAdd = pr.result;
         int c = a + b;
         return c;
+    }
+
+    public static void main(String[] args) {
+        add a = new add();
+        a.add(1);
     }
 }
