@@ -266,5 +266,11 @@ $.each($.zUI.asWidget,function(i,widget){
 })(jQuery);
 
 $(function(){
+	$("#demo0").panel({iWheelStep:32});
+});
+$(function(){
 	$("#demo1").panel({iWheelStep:32});
+});
+$(function(){
+	$("#demo2").panel({iWheelStep:32});
 });

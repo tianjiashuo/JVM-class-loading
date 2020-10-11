@@ -191,10 +191,6 @@ html, body {
     left: 15%;
 }
 
-
-
-
-
 #mainPage{
     height: 100%;
     margin: 0;
@@ -305,6 +301,13 @@ html, body {
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
+
+#demo0{
+    height: 90%;
+    border: 2px solid #1F1F1F;
+    margin: 20px auto;
+    overflow: hidden;
+}
 #demo1 {
     /*width: 50%;*/
     height: 90%;
@@ -312,15 +315,14 @@ html, body {
     margin: 20px auto;
     overflow: hidden;
 }
-/*#demo {*/
-/*    width: 500px;*/
-/*    height: 300px;*/
-/*    border: 2px solid #1F1F1F;*/
-/*    margin: 20px auto;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.box {*/
-/*    height: 300px;*/
-/*    width: 500px;*/
-/*}*/
+#demo2{
+    height: 90%;
+    border: 2px solid #1F1F1F;
+    margin: 20px auto;
+    overflow: hidden;
+}
+#code{
+    /*height: 100%;*/
+    width: 100%;
+    font-size: 1.7em ;
+}
