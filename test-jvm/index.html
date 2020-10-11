@@ -142,11 +142,34 @@
                 <span class="methodName">Input Area </span>
             </div>
 
-<!--            <input class="inputCode" type="text" name="code" placeholder="请输入代码...">-->
-			<textarea class="form-control"  name="code" rows="12">
-				hahahaha
-			</textarea>
+			<div class="inputCode">
 
+				<div class="editor_control_2">
+				<textarea class="form-control" id="code1" name="code" rows="12">
+    public Set selectSell(String condition){
+        Set ans = new HashSet();
+        //关键字筛选范围
+        if(condition.containsKey("key")){
+            String keywords = condition.get("key");
+            ans.addAll(sellDao.queryByKWords("address",keywords));
+            ans.addAll(sellDao.queryByKWords("title",keywords));
+            ans.addAll(sellDao.queryByKWords("type",keywords));
+            ans.addAll(sellDao.queryByKWords("orientation",keywords));
+            condition.remove("key");
+        }
+    }
+				</textarea>
+				</div>
+			</div>
+			<script>
+				var editor = CodeMirror.fromTextArea(document.getElementById("code1"), {
+					lineNumbers: true,
+					matchBrackets: true,
+					mode: "text/x-java",
+					indentUnit: 4,
+					indentWithTabs: true,
+				});
+			</script>
         </div>
 
 <!--		可视化区-->
