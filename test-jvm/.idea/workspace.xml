@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6c1297f9-5249-421e-ae77-80b34ccfa5d1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/css/input.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/clike.js" afterDir="false" />
@@ -10,6 +11,15 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/zUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zUI.js" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="46e0b842-c9c3-4d42-ba40-e109093055ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="6c1297f9-5249-421e-ae77-80b34ccfa5d1" name="Default Changelist" comment="" />
+>>>>>>> c07b0c62e5cb0ecd656003e998a5f92a6ff1838c
+>>>>>>> f9b3429301575b840f07ff267a15ea7633ba0141
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +119,11 @@
       <created>1598507368337</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1601294372941</updated>
+      <workItem from="1601294374060" duration="11191000" />
+      <workItem from="1601350110735" duration="15295000" />
+=======
       <updated>1598507368337</updated>
       <workItem from="1598507376954" duration="1709000" />
       <workItem from="1598512459432" duration="4273000" />
@@ -117,6 +132,7 @@
       <workItem from="1599117905276" duration="694000" />
       <workItem from="1599148625193" duration="473000" />
       <workItem from="1599739573787" duration="667000" />
+<<<<<<< HEAD
       <workItem from="1601370592579" duration="38000" />
       <workItem from="1601380919342" duration="1417000" />
       <workItem from="1601436844059" duration="1652000" />
@@ -126,6 +142,9 @@
       <workItem from="1602338319376" duration="485000" />
       <workItem from="1602423018971" duration="300000" />
       <workItem from="1602423658924" duration="57000" />
+=======
+>>>>>>> c07b0c62e5cb0ecd656003e998a5f92a6ff1838c
+>>>>>>> f9b3429301575b840f07ff267a15ea7633ba0141
     </task>
     <servers />
   </component>
