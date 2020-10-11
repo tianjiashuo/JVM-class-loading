@@ -55,8 +55,14 @@ startClick = function () {
     // }, 1200);
     setTimeout(function () {
         $('#mainPage').css('display', 'block');
+        $('#inputCodePage').css('display', 'block');
         $('#startPage').css('display', 'none');
     }, 1950);
+}
+
+run = function () {
+    $('#showPage').css('display', 'block');
+    $('#inputCodePage').css('display', 'none');
 }
 
 

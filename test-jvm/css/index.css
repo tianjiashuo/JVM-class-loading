@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    /*background-color: #1e1f26;*/
     overflow: hidden;
 }
 
@@ -15,15 +14,6 @@ html, body {
     padding-left: 10%;
     padding-right: 10%;
 }
-/*.startPageAni{*/
-/*    opacity: 1;*/
-/*    -webkit-animation: startPageDis 0.5s linear 0.5s;*/
-/*}*/
-
-/*@-webkit-keyframes startPageDis{*/
-/*    from{opacity: 1}*/
-/*    to{opacity: 0}*/
-/*}*/
 
 #leftDiv{
     margin-top: 10%;
@@ -158,9 +148,6 @@ html, body {
     font-size: 0.85em;
 }
 
-/*.demoData{*/
-/*    list-style: none;*/
-/*}*/
 .demoData1{
     color: #9f8198;
 }
@@ -191,6 +178,7 @@ html, body {
     left: 15%;
 }
 
+
 #mainPage{
     height: 100%;
     margin: 0;
@@ -214,7 +202,8 @@ html, body {
     font-family: -webkit-pictograph;
 }
 
-#container{
+#showPage{
+    display: none;
     height: 100%;
 }
 
@@ -222,6 +211,16 @@ html, body {
     height: 100%;
     width: 20%;
     float: left;
+}
+
+.inputHeader{
+    height: 5%;
+    background-color: #1a1b1f;
+    color: #aaaebc;
+    font-size: 1.3em;
+    border-bottom: 1px solid #78787840;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .inputCode{
@@ -241,28 +240,53 @@ html, body {
     flex-direction: row;
 }
 
-.heap{
-    float: left;
-    height: 100%;
+.left2{
     flex: 1;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
     border-right: 18px solid #333642;
 }
 
-.stack{
-    float: left;
-    height: 100%;
+.right3{
     flex: 1;
-    border-right: 18px solid #333642;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.VMStack{
+    -webkit-box-flex: 1;
 }
 
 .methodArea{
-    float: right;
-    height: 100%;
-    flex: 1;
+    -webkit-box-flex: 1;
 }
 
-.methodHeader{
-    height: 5%;
+.heap{
+    -webkit-box-flex: 1;
+}
+
+.NMStack{
+    -webkit-box-flex: 1;
+}
+
+.PCRegister{
+    -webkit-box-flex: 1;
+}
+
+.methodHeaderLeft{
+    height: 10%;
+    background-color: #1a1b1f;
+    color: #aaaebc;
+    font-size: 1.3em;
+    border-bottom: 1px solid #78787840;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.methodHeaderRight{
+    height: 15%;
     background-color: #1a1b1f;
     color: #aaaebc;
     font-size: 1.3em;
@@ -339,37 +363,23 @@ html, body {
     margin: 20px auto;
     overflow: hidden;
 }
-#code{
-    /*height: 100%;*/
-    width: 100%;
-    font-size: 1.7em ;
-}
 
-html, body {
+/*代码输入页面*/
+#inputCodePage{
+    display: none;
     height: 100%;
     margin: 0;
     background-color: #3C3F41;
     overflow: hidden;
 }
 
-#header{
-    height:7%;
-    display: flex;
-    align-items: Center;
-}
+/*#code{*/
+/*    !*height: 100%;*!*/
+/*    width: 100%;*/
+/*    font-size: 1.7em ;*/
+/*}*/
 
-#logo{
-    margin-top: 1px;
-    height: 100%;
-}
-
-.title{
-    color: #ffffff;
-    font-size: 1.75em;
-    font-family: -webkit-pictograph;
-}
-
-#files_tree{
+.files_tree{
     height:100% ;
     width:15%;
     background: #3C3F41;
@@ -400,6 +410,7 @@ html, body {
     background: #313335;
     height: 100%;
     border-radius: 4px;
+    cursor: pointer;
 }
 #run{
     height: 15px;
