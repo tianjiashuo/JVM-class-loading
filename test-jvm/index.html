@@ -17,7 +17,7 @@
 	<body>
 	<div id="startPage">
 		<div id="leftDiv">
-			<img src="图/java.png" style="height: 150px; margin-left: 10px"/>
+			<img src="图/java.png" style="height: 80px; margin-left: 25px"/>
 			<div id="text">
 				<span class="textTitle">JVM Class Loading</span>
 				<p class="textContent">
@@ -78,45 +78,60 @@
 
 	<div id="mainPage">
 		<div id="header">
-			<img id="logo" src="图/java.png" style="height: 90px"/>
+			<img id="logo" src="图/java.png" style="height: 45px"/>
 			<span class="title">JVM Class Loading</span>
 		</div>
 
-		<div id="loadingArea">
-			<div class="heap">
+		<div id="container">
+
+			<div id="inputCodeBox">
 				<div class="methodHeader">
-					<span class="methodName">HEAP</span>
-					<button class="buttonShow">show</button>
+					<span class="methodName">Input Area </span>
 				</div>
+				<input class="inputCode" type="text" name="code" placeholder="请输入代码...">
+			</div>
+
+			<div id="loadingArea">
+
+				<div class="heap">
+					<div class="methodHeader">
+						<span class="methodName">HEAP</span>
+						<button class="buttonShow">show</button>
+					</div>
 					<div class="methodBody">
 
 					</div>
-			</div>
-
-			<div class="stack">
-				<div class="methodHeader">
-					<span class="methodName">STACK</span>
-					<button class="buttonShow">show</button>
 				</div>
-				<div class="methodBody">
 
-				</div>
-			</div>
+				<div class="stack">
+					<div class="methodHeader">
+						<span class="methodName">STACK</span>
+						<button class="buttonShow">show</button>
+					</div>
+					<div class="methodBody">
 
-			<div class="methodArea">
-				<div class="methodHeader">
-					<span class="methodName">METHOD AREA</span>
-					<button class="buttonShow" onclick="getMethodarea()">show</button>
+					</div>
 				</div>
+
+				<div class="methodArea">
+					<div class="methodHeader">
+						<span class="methodName">METHOD AREA</span>
+						<button class="buttonShow" onclick="getMethodarea()">show</button>
+					</div>
 					<div class="methodBody">
 						<div id="demo1">
-<!--							<div>-->
+							<!--							<div>-->
 							<ol id="methodAreaData"></ol>
-<!--							</div>-->
+							<!--							</div>-->
 						</div>
 					</div>
+				</div>
+
 			</div>
+
 		</div>
+
+
 	</div>
 
 
