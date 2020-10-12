@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="6c1297f9-5249-421e-ae77-80b34ccfa5d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/zUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zUI.js" afterDir="false" />
+    </list>
+=======
+<<<<<<< HEAD
     <list default="true" id="46e0b842-c9c3-4d42-ba40-e109093055ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 =======
     <list default="true" id="6c1297f9-5249-421e-ae77-80b34ccfa5d1" name="Default Changelist" comment="" />
 >>>>>>> c07b0c62e5cb0ecd656003e998a5f92a6ff1838c
+>>>>>>> f9b3429301575b840f07ff267a15ea7633ba0141
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,8 +34,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -52,7 +68,6 @@
   <component name="ProjectId" id="1gfYyc69f1MFt1CfIbZa0LyRPVi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,15 +78,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Java/src/com/huawei/classroom/student/aDC/dachuang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tianjiashuo\Desktop\juniors\大创jvm\jvm\JVM-class-loading\test-jvm\js" />
       <recent name="C:\Users\tianjiashuo\Desktop\demo\jvmclassload\src\main\java\com\jvm\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
+  <component name="RunManager">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jvm.demo.DemoApplication" />
       <module name="jvmclassload" />
@@ -92,23 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DemoApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -132,12 +132,24 @@
       <workItem from="1599117905276" duration="694000" />
       <workItem from="1599148625193" duration="473000" />
       <workItem from="1599739573787" duration="667000" />
+<<<<<<< HEAD
+      <workItem from="1601370592579" duration="38000" />
+      <workItem from="1601380919342" duration="1417000" />
+      <workItem from="1601436844059" duration="1652000" />
+      <workItem from="1601822217226" duration="2537000" />
+      <workItem from="1602310006654" duration="4519000" />
+      <workItem from="1602334979157" duration="695000" />
+      <workItem from="1602338319376" duration="485000" />
+      <workItem from="1602423018971" duration="300000" />
+      <workItem from="1602423658924" duration="57000" />
+=======
 >>>>>>> c07b0c62e5cb0ecd656003e998a5f92a6ff1838c
+>>>>>>> f9b3429301575b840f07ff267a15ea7633ba0141
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1601288183175">

@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    /*background-color: #1e1f26;*/
     overflow: hidden;
 }
 
@@ -15,15 +14,6 @@ html, body {
     padding-left: 10%;
     padding-right: 10%;
 }
-/*.startPageAni{*/
-/*    opacity: 1;*/
-/*    -webkit-animation: startPageDis 0.5s linear 0.5s;*/
-/*}*/
-
-/*@-webkit-keyframes startPageDis{*/
-/*    from{opacity: 1}*/
-/*    to{opacity: 0}*/
-/*}*/
 
 #leftDiv{
     margin-top: 10%;
@@ -158,9 +148,6 @@ html, body {
     font-size: 0.85em;
 }
 
-/*.demoData{*/
-/*    list-style: none;*/
-/*}*/
 .demoData1{
     color: #9f8198;
 }
@@ -192,9 +179,6 @@ html, body {
 }
 
 
-
-
-
 #mainPage{
     height: 100%;
     margin: 0;
@@ -206,6 +190,7 @@ html, body {
     height:7%;
     display: flex;
     align-items: Center;
+    border-bottom: 1px solid #78787840;
 }
 
 #logo{
@@ -218,24 +203,43 @@ html, body {
     font-family: -webkit-pictograph;
 }
 
-#container{
+#showPage{
+    display: none;
     height: 100%;
 }
 
 #inputCodeBox{
     height: 100%;
-    width: 20%;
+    width: 30%;
     float: left;
 }
 
-.inputCode{
-    height: 100%;
-    width: 98%;
-    border: 0;
-    color: white;
-    font-size: 1em;
-    background: #1e1f26;
+.inputHeader{
+    height: 5%;
+    background-color: #1a1b1f;
+    color: #aaaebc;
+    font-size: 1.3em;
+    border-bottom: 1px solid #78787840;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.inputCode{
+    /*height: 100%;*/
+    /*width: 98%;*/
+    /*border: 0;*/
+    /*color: white;*/
+    /*font-size: 1em;*/
+    /*background: #1e1f26;*/
+    height: 100%;
+    width: 100%;
+}
+
+.editor_control_2{
+    width:99.9%;
+    height: 100%;
+}
+
 
 #loadingArea{
     height: 100%;
@@ -245,28 +249,53 @@ html, body {
     flex-direction: row;
 }
 
-.heap{
-    float: left;
-    height: 100%;
+.left2{
     flex: 1;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
     border-right: 18px solid #333642;
 }
 
-.stack{
-    float: left;
-    height: 100%;
+.right3{
     flex: 1;
-    border-right: 18px solid #333642;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.VMStack{
+    -webkit-box-flex: 1;
 }
 
 .methodArea{
-    float: right;
-    height: 100%;
-    flex: 1;
+    -webkit-box-flex: 1;
 }
 
-.methodHeader{
-    height: 5%;
+.heap{
+    -webkit-box-flex: 1;
+}
+
+.NMStack{
+    -webkit-box-flex: 1;
+}
+
+.PCRegister{
+    -webkit-box-flex: 1;
+}
+
+.methodHeaderLeft{
+    height: 10%;
+    background-color: #1a1b1f;
+    color: #aaaebc;
+    font-size: 1.3em;
+    border-bottom: 1px solid #78787840;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.methodHeaderRight{
+    height: 15%;
     background-color: #1a1b1f;
     color: #aaaebc;
     font-size: 1.3em;
@@ -324,21 +353,81 @@ html, body {
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
+
+#demo0{
+    height: 90%;
+    border: 2px solid #1F1F1F;
+    margin: 20px auto;
+    overflow: hidden;
+}
 #demo1 {
     /*width: 50%;*/
     height: 99%;
     border: 2px solid #1F1F1F;
     overflow: hidden;
 }
-/*#demo {*/
-/*    width: 500px;*/
-/*    height: 300px;*/
-/*    border: 2px solid #1F1F1F;*/
-/*    margin: 20px auto;*/
-/*    overflow: hidden;*/
+#demo2{
+    height: 90%;
+    border: 2px solid #1F1F1F;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/*代码输入页面*/
+#inputCodePage{
+    display: none;
+    height: 100%;
+    margin: 0;
+    /*background-color: #3C3F41;*/
+    overflow: hidden;
+}
+
+/*#code{*/
+/*    !*height: 100%;*!*/
+/*    width: 100%;*/
+/*    font-size: 1.7em ;*/
 /*}*/
 
-/*.box {*/
-/*    height: 300px;*/
-/*    width: 500px;*/
-/*}*/
+.files_tree{
+    height:100% ;
+    width:15%;
+    background: #3C3F41;
+    border: 3px solid #313335;
+    border-radius: 6px;
+}
+
+.code{
+    display: flex;
+    height: 70%;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.terminal{
+    height: 19%;
+    width: 98%;
+    margin: 0 auto;
+    background: #1a1b1f;
+    margin-top: 10px;
+    border: 3px solid #313335;
+    border-radius: 6px;
+}
+
+.buttons{
+    width: 20px;
+    background: #313335;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#run{
+    height: 15px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+#stop{
+    height: 12px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
