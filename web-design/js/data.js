@@ -26,6 +26,7 @@ function getMethodarea() {
         type : "get",
         async : false,
         dataType : "json",
+        
         success : function(result) {
             console.log("!!!!!!!!!!!!!!!!!!!")
             console.log(result[0]);
