@@ -22,7 +22,7 @@ public class RemoveMethodAdapter extends ClassVisitor{
     @Override
     public MethodVisitor visitMethod(int access, String name, String descriptor, String signature,
             String[] exceptions) {
-        if (name.equals(mName) && descriptor.equals(mDesc) {
+        if (name.equals(mName) && descriptor.equals(mDesc)) {
             return null;
         }
         return cv.visitMethod(access, name, descriptor, signature, exceptions);

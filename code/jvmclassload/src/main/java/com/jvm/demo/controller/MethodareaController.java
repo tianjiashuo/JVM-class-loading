@@ -9,6 +9,7 @@ import java.util.Map;
 
 @RestController
 public class MethodareaController {
+
     test testM = new test();
     @GetMapping("/methodarea")
     @CrossOrigin

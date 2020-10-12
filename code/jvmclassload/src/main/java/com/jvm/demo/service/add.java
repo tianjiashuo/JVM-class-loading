@@ -11,19 +11,10 @@ public class add {
 //        System.out.println("-----------------");
 //        System.out.println("in class add:");
         printMethod pr = new printMethod();
-        //方法一
-        //pr.printTrack();
-        //方法二
-        //Hash
         this.map=pr.printTrack2();
-        //System.out.println(r.result);
+        //System.out.println(pr.result);
         this.testAdd = pr.result;
         int c = a + b;
         return c;
-    }
-
-    public static void main(String[] args) {
-        add a = new add();
-        a.add(1);
     }
 }
