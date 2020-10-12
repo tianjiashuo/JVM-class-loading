@@ -11,6 +11,8 @@ import lombok.*;
 * 4. 方法信息
 * 5. static变量信息*/
 public class MethodAreaVo extends AreaVo{
+    private String area = "MethodArea";
+    private String type;
     private String classname;
     private long[] pool;
     private String[] method;

@@ -10,6 +10,7 @@ import lombok.*;
 * 2. 方法引用和方法的参数
 * 3. 对象类型*/
 public class JvmStackVo extends AreaVo{
+    private String area = "JvmStack";
     private String referenceName;
     private String type;
     private String methodName;
