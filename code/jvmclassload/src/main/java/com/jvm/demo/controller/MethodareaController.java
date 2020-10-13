@@ -9,13 +9,14 @@ import java.util.Map;
 
 @RestController
 public class MethodareaController {
+
     test testM = new test();
-    @GetMapping("/methodarea")
-    @CrossOrigin
-    MethodareaVo methodarea(){
-        MethodareaVo methodareaVo = new MethodareaVo("appMain","main");
-        return methodareaVo;
-    }
+//    @GetMapping("/methodarea")
+//    @CrossOrigin
+//    MethodAreaVo methodarea(){
+//        MethodareaVo methodareaVo = new MethodareaVo("appMain","main");
+//        return methodareaVo;
+//    }
     @GetMapping("/methodTest")
     @CrossOrigin
     Map<Integer, String> testMethod(){

@@ -6,6 +6,8 @@ public class test {
     public Map<Integer,String> testAdd(){
         add ad = new add();
         int result = ad.add(2);
-        return ad.map;
+        printMethod pr = new printMethod();
+        System.out.println(ad.map.size());
+        return pr.removeUnusedMethod(ad.map);
     }
 }

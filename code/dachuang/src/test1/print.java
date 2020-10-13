@@ -3,6 +3,8 @@ package test1;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.util.Map;
+import java.util.regex.Pattern;
 
 public class print {
     void printTrack(){
@@ -59,5 +61,15 @@ public class print {
             }
         }
         return sw.toString();
+    }
+    public Map<Integer,String> removeUnusedMethod(Map<Integer,String> map){
+
+        String removeMethod = ".*org.*";
+        for(int i=0;i<map.size();i++){
+            if(Pattern.matches(removeMethod, map.get(i))){
+                map.remove(i);
+            }
+        }
+        return map;
     }
 }

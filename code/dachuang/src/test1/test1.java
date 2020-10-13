@@ -30,19 +30,19 @@ public class test1 {
         return sw.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println("-----------------");
-        System.out.println("in class test1:");
-        print pr = new print();
-        pr.printTrack();
-//        Exception e = new Exception();
-//        String s = getStackTrace(e);
-//        System.out.println(s);
-        add ad = new add();
-        int result = ad.add(2);
-        //System.out.println(result);
-        //pr.printTrack();
-    }
+//    public static void main(String[] args) {
+//        System.out.println("-----------------");
+//        System.out.println("in class test1:");
+//        print pr = new print();
+//        pr.printTrack();
+////        Exception e = new Exception();
+////        String s = getStackTrace(e);
+////        System.out.println(s);
+//        add ad = new add();
+//        int result = ad.add(2);
+//        //System.out.println(result);
+//        //pr.printTrack();
+//    }
 
 
 }

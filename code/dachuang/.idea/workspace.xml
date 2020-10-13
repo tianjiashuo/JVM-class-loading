@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="" />
+    <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../classloader/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/classloader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/classloader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/src/main/java/com/tju/classloader/RemoveMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/src/main/java/com/tju/classloader/RemoveMethodAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContentTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Comparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ComparableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ComparableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/RemoveMethodAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/RemoveMethodAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../classloader/target/test-classes/com/tju/classloader/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/test-classes/com/tju/classloader/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo&amp;tips_1/JavaASMDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../demo&amp;tips_1/JavaASMDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/add.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1hrIckmDfr1qQKumF1EeqrUvo5M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,7 +60,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.add">
+    <configuration name="add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1.add" />
+      <module name="dachuang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test1.test1" />
       <module name="dachuang" />
@@ -41,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.add" />
         <item itemvalue="Application.test1" />
       </list>
     </recent_temporary>
@@ -75,30 +124,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600778075406" />
-    <state width="1492" height="321" key="GridCell.Tab.0.bottom" timestamp="1600963092273">
+    <state width="1492" height="153" key="GridCell.Tab.0.bottom" timestamp="1602421617162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="321" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600963092273" />
-    <state width="1492" height="321" key="GridCell.Tab.0.center" timestamp="1600963092271">
+    <state width="1492" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
+    <state width="1492" height="153" key="GridCell.Tab.0.center" timestamp="1602421617162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="321" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600963092271" />
-    <state width="1492" height="321" key="GridCell.Tab.0.left" timestamp="1600963092269">
+    <state width="1492" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
+    <state width="1492" height="153" key="GridCell.Tab.0.left" timestamp="1602421617161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="321" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600963092269" />
-    <state width="1492" height="321" key="GridCell.Tab.0.right" timestamp="1600963092273">
+    <state width="1492" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602421617161" />
+    <state width="1492" height="153" key="GridCell.Tab.0.right" timestamp="1602421617162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="321" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600963092273" />
+    <state width="1492" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
     <state x="272" y="58" key="SettingsEditor" timestamp="1600785621543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600785621543" />
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog" timestamp="1600763803909">
+    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog" timestamp="1602420091268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600763803909" />
+    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602420091268" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600773023134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
