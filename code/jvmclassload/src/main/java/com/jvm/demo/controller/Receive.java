@@ -4,16 +4,14 @@ import com.jvm.demo.Entity.AreaVo;
 import com.jvm.demo.Entity.HeapVo;
 import com.jvm.demo.Entity.JvmStackVo;
 import com.jvm.demo.Entity.MethodAreaVo;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/code")
+@CrossOrigin
 public class Receive {
 
     public Map<Integer, AreaVo> getInfo() {

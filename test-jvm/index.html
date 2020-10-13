@@ -98,12 +98,9 @@
 
             </div>
             <div class="editor_control">
-				<textarea class="form-control" id="code" value="code" name="code" rows="12" οnkeyup="SwapTxt()">
-                    public static void main(String[] args) {
-                      int a = 1;
-                    }
+				<textarea id="code" class="form-control" value="code" name="code" rows="12">
+
 				</textarea>
-<!--                <p id="lyny" style="color: white">!!!</p>&lt;!&ndash;//这个地方是同步显示内容的 &ndash;&gt;-->
             </div>
         </div>
 
@@ -138,23 +135,12 @@
 
 				<div class="editor_control_2">
 				<textarea class="form-control" id="code1" name="code" rows="12">
-    public Set selectSell(String condition){
-        Set ans = new HashSet();
-        //关键字筛选范围
-        if(condition.containsKey("key")){
-            String keywords = condition.get("key");
-            ans.addAll(sellDao.queryByKWords("address",keywords));
-            ans.addAll(sellDao.queryByKWords("title",keywords));
-            ans.addAll(sellDao.queryByKWords("type",keywords));
-            ans.addAll(sellDao.queryByKWords("orientation",keywords));
-            condition.remove("key");
-        }
-    }
+
 				</textarea>
 				</div>
 			</div>
 			<script>
-				var editor = CodeMirror.fromTextArea(document.getElementById("code1"), {
+				var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {
 					lineNumbers: true,
 					matchBrackets: true,
 					mode: "text/x-java",
