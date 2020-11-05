@@ -98,19 +98,8 @@
 
             </div>
             <div class="editor_control">
-				<textarea class="form-control" id="code" name="code" rows="12">
-    public Set selectSell(String condition){
-        Set ans = new HashSet();
-        //关键字筛选范围
-        if(condition.containsKey("key")){
-            String keywords = condition.get("key");
-            ans.addAll(sellDao.queryByKWords("address",keywords));
-            ans.addAll(sellDao.queryByKWords("title",keywords));
-            ans.addAll(sellDao.queryByKWords("type",keywords));
-            ans.addAll(sellDao.queryByKWords("orientation",keywords));
-            condition.remove("key");
-        }
-    }
+				<textarea id="code" class="form-control" value="code" name="code" rows="12">
+
 				</textarea>
             </div>
         </div>
@@ -146,23 +135,12 @@
 
 				<div class="editor_control_2">
 				<textarea class="form-control" id="code1" name="code" rows="12">
-    public Set selectSell(String condition){
-        Set ans = new HashSet();
-        //关键字筛选范围
-        if(condition.containsKey("key")){
-            String keywords = condition.get("key");
-            ans.addAll(sellDao.queryByKWords("address",keywords));
-            ans.addAll(sellDao.queryByKWords("title",keywords));
-            ans.addAll(sellDao.queryByKWords("type",keywords));
-            ans.addAll(sellDao.queryByKWords("orientation",keywords));
-            condition.remove("key");
-        }
-    }
+
 				</textarea>
 				</div>
 			</div>
 			<script>
-				var editor = CodeMirror.fromTextArea(document.getElementById("code1"), {
+				var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {
 					lineNumbers: true,
 					matchBrackets: true,
 					mode: "text/x-java",
@@ -182,7 +160,7 @@
 						<span class="methodName">VM STACK</span>
 						<button class="buttonShow">show</button>
 					</div>
-					<div class="methodBody">
+					<div id="vmStackBody" class="methodBody">
 
 					</div>
 				</div>
@@ -193,10 +171,10 @@
 						<span class="methodName">METHOD AREA</span>
 						<button class="buttonShow" onclick="getMethodarea()">show</button>
 					</div>
-					<div class="methodBody">
-						<div id="demo1">
-							<ol id="methodAreaData"></ol>
-						</div>
+					<div id="methodAreaBody" class="methodBody">
+<!--						<div id="demo1">-->
+<!--							<ol id="methodAreaData"></ol>-->
+<!--						</div>-->
 					</div>
 				</div>
 			</div>
@@ -209,8 +187,8 @@
 						<button class="buttonShow">show</button>
 
 					</div>
-					<div class="methodBody">
-
+					<div id="heapBody" class="methodBody">
+<!--                        <div class="test">int i = 0;</div>-->
 					</div>
 				</div>
 
