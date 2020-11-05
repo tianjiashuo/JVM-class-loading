@@ -20,10 +20,10 @@ public class InfoController {
         map.put(1, null);
         map.put(2, null);
         long[] param = {0, 1};
-        map.put(3, MethodAreaVo.builder().area("MethodArea").classname("com/jvm/demo/source/Add")
+        map.put(3, MethodAreaVo.builder().area("MethodArea").ClassName("com/jvm/demo/source/Add")
                 .method(new String[]{"addcd()", "add()"}).pool(param).build());
-        map.put(4, MethodAreaVo.builder().area("MethodArea").type("int").fieldName("a").value("0").build());
-        map.put(5, MethodAreaVo.builder().area("MethodArea").fieldName("b").type("int").value("1").build());
+        map.put(4, MethodAreaVo.builder().area("MethodArea").type("int").MethodName("a").value("0").build());
+        map.put(5, MethodAreaVo.builder().area("MethodArea").MethodName("b").type("int").value("1").build());
         map.put(6, null);
         map.put(7, HeapVo.builder().area("Heap").name("c").value("3").type("int").build());
         map.put(8, HeapVo.builder().area("Heap").name("d").value("4").type("int").build());

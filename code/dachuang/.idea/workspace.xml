@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Agent" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../classloader/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/classloader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/classloader.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/src/main/java/com/tju/classloader/RemoveMethodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/src/main/java/com/tju/classloader/RemoveMethodAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/AddFieldTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/B_visitContentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassLoaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ClassPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/Comparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ComparableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/ComparableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/MyClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/RemoveMethodAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/RemoveMethodAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/classes/com/tju/classloader/TestException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../classloader/target/test-classes/com/tju/classloader/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../classloader/target/test-classes/com/tju/classloader/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test1/print.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test1/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test1/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test1/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo&amp;tips_1/JavaASMDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../demo&amp;tips_1/JavaASMDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/AreaVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/AreaVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/MethodAreaVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/MethodAreaVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/MethodareaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/MethodareaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/printMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/printMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1hrIckmDfr1qQKumF1EeqrUvo5M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,15 +49,64 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="Application.add">
-    <configuration name="add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.add" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\大创\code\dachuang\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Bank">
+    <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1.Add" />
       <module name="dachuang" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Bank" />
+      <module name="dachuang" />
+      <option name="VM_PARAMETERS" value="-javaagent:lib/agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.add" />
+      <module name="dachuang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loadFromLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loadFromLocal.loadFromLocal" />
+      <module name="dachuang" />
+      <option name="VM_PARAMETERS" value="-javaagent:lib/agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loadFromLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,9 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Add" />
+      <item itemvalue="Application.Bank" />
+      <item itemvalue="Application.loadFromLocal" />
+      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.add" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bank" />
         <item itemvalue="Application.add" />
+        <item itemvalue="Application.Add" />
+        <item itemvalue="Application.loadFromLocal" />
         <item itemvalue="Application.test1" />
       </list>
     </recent_temporary>
@@ -120,34 +170,70 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1600778075406">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602589344867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600778075406" />
-    <state width="1492" height="153" key="GridCell.Tab.0.bottom" timestamp="1602421617162">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602589344867" />
+    <state x="491" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602590317600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
-    <state width="1492" height="153" key="GridCell.Tab.0.center" timestamp="1602421617162">
+    <state x="491" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602590317600" />
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1602599559652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
-    <state width="1492" height="153" key="GridCell.Tab.0.left" timestamp="1602421617161">
+    <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602599559652" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602588799784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602421617161" />
-    <state width="1492" height="153" key="GridCell.Tab.0.right" timestamp="1602421617162">
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1602588799784" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1604565931554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602421617162" />
-    <state x="272" y="58" key="SettingsEditor" timestamp="1600785621543">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604565931554" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1604583053865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600785621543" />
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog" timestamp="1602420091268">
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1604583053865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602420091268" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1604583053865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1604583053865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
+    <state width="1492" height="213" key="GridCell.Tab.1.bottom" timestamp="1602586453670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602586453670" />
+    <state width="1492" height="213" key="GridCell.Tab.1.center" timestamp="1602586453670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602586453670" />
+    <state width="1492" height="213" key="GridCell.Tab.1.left" timestamp="1602586453669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602586453669" />
+    <state width="1492" height="213" key="GridCell.Tab.1.right" timestamp="1602586453670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602586453670" />
+    <state x="78" y="0" width="1246" height="824" key="SettingsEditor" timestamp="1604395634782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="78" y="0" width="1246" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604395634782" />
+    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog" timestamp="1604565581616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604565581616" />
+    <state x="378" y="108" width="1057" height="586" key="dock-window-1" timestamp="1602600157069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="378" y="108" width="1057" height="586" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1602600157069" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600773023134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
