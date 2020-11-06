@@ -3,13 +3,14 @@ package com.jvm.demo.service;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
+import com.jvm.demo.Entity.*;
 
 public class printMethod {
     String result = "";
+    AreaVo areaVo = new AreaVo();
+    //MethodAreaVo methodAreaVo = new MethodAreaVo();
+
     public void printTrack(){
-//        System.out.println("方法1");
-//        System.out.println("id");
-//        System.out.println(Thread.currentThread().getId());
         StackTraceElement[] st = Thread.currentThread().getStackTrace();
         if(st==null){
             System.out.println("无堆栈...");
@@ -31,15 +32,24 @@ public class printMethod {
     }
 
     public Map<Integer,String> printTrack2(){
-        //System.out.println("方法2");
         HashMap<Integer,String> map= new HashMap<>();
         StackTraceElement stack[] = Thread.currentThread().getStackTrace();
         for(int i=0;i<stack.length;i++){
-            //System.out.print(stack[i].getClassName()+" ."+stack[i].getMethodName()+"-----");
-            String value = stack[i].getClassName()+" ."+stack[i].getMethodName();
+            String value ="ClassName: "+stack[i].getClassName()
+                    +"  MethodName: "+stack[i].getMethodName()
+                    +"  LineNumber: "+Thread.currentThread().getStackTrace()[i].getLineNumber();
             map.put(i,value);
         }
         return map;
+//        HashMap<Integer,MethodAreaVo> map= new HashMap<>();
+//        StackTraceElement stack[] = Thread.currentThread().getStackTrace();
+//        for(int i=0;i<stack.length;i++){
+//            methodAreaVo.setClassName(stack[i].getClassName());
+//            methodAreaVo.setMethodName(stack[i].getMethodName());
+//            methodAreaVo.setLineNumber(Thread.currentThread().getStackTrace()[i].getLineNumber());
+//            map.put(i,methodAreaVo);
+//        }
+//        return map;
     }
 
     public Map<Integer,String> removeUnusedMethod(Map<Integer,String> map){

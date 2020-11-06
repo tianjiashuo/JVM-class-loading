@@ -1,5 +1,6 @@
 package com.jvm.demo.controller;
 
+import com.jvm.demo.Entity.MethodAreaVo;
 import com.jvm.demo.service.test;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
