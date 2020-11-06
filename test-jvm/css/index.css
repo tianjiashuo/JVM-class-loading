@@ -4,6 +4,7 @@ html, body {
     overflow: hidden;
 }
 
+/*起始页*/
 #startPage{
     height: 100%;
     margin: 0;
@@ -178,7 +179,7 @@ html, body {
     left: 15%;
 }
 
-
+/*主页面*/
 #mainPage{
     height: 100%;
     margin: 0;
@@ -388,7 +389,7 @@ html, body {
 /*    font-size: 1.7em ;*/
 /*}*/
 
-.files_tree{
+#files_tree{
     height:100% ;
     width:15%;
     background: #3C3F41;

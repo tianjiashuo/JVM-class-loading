@@ -166,49 +166,6 @@ run = function () {
     //     },
     // });
 
-    // var testMsg = {
-    //     "1": null,
-    //     "2": {
-    //         "area": "MethodArea",
-    //         "type": null,
-    //         "classname": "com/jvm/demo/source/Add",
-    //         "pool": [
-    //             0,
-    //             1
-    //         ],
-    //         "method": [
-    //             "addcd()",
-    //             "add()"
-    //         ],
-    //         "param": null,
-    //         "value": null,
-    //         "fieldName": null
-    //     },
-    //     "3": {
-    //         "area": "MethodArea",
-    //         "type": "int",
-    //         "classname": null,
-    //         "pool": null,
-    //         "method": null,
-    //         "param": null,
-    //         "value": "1",
-    //         "fieldName": "b"
-    //     },
-    //     "4": null,
-    //     "5": {
-    //         "area": "Heap",
-    //         "name": "c",
-    //         "value": "3",
-    //         "type": "int"
-    //     },
-    //     "6": {
-    //         "area": "JvmStack",
-    //         "referenceName": null,
-    //         "type": null,
-    //         "methodName": "add",
-    //         "args": null
-    //     }
-    // }
     var testMsg = {
         "1": null,
         "2": null,
@@ -315,15 +272,22 @@ run = function () {
     }
     var testMsgLen = 23;
 
-    setTimeout(function () {
-                    for (var i = 1; i <= testMsgLen; i++) {
-                        showData(i,testMsg);
-                        // console.log("延迟开始");
-                        $("#"+i).delay(aniTime).fadeIn();
-                        // console.log("延迟结束");
-                        aniTime += 300;
-                    }
-                }, 100);
+    // setTimeout(function () {
+    //                 for (var i = 1; i <= testMsgLen; i++) {
+    //                     showData(i,testMsg);
+    //                     // console.log("延迟开始");
+    //                     $("#"+i).delay(aniTime).fadeIn();
+    //                     // console.log("延迟结束");
+    //                     aniTime += 300;
+    //                 }
+    //             }, 100);
+    for (var i = 1; i <= testMsgLen; i++) {
+        showData(i,testMsg);
+        // console.log("延迟开始");
+        $("#"+i).delay(aniTime).fadeIn();
+        // console.log("延迟结束");
+        aniTime += 300;
+    }
 
 }
 
