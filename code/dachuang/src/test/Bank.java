@@ -1,14 +1,24 @@
 package test;
 
-import Instrument.ClassFileVIstor;
-
-import java.util.ArrayList;
-
 public class Bank {
     final public int Max_count = 10;
+    final public int count = 0;
+    final public double real = 2.01;
+    final public String str = "Hello World";
     //方法区的运行时常量池
     //不是final拿不到
 //    public ArrayList<Person> banks = new ArrayList<Person>();
+    public double count(){
+        return 1.0;
+    }
+
+    public Boolean real(){
+        return true;
+    }
+
+    public void sayNothing(){
+        System.out.println("hahaha");
+    }
     public static void main(String args[]){
 //        String s1= new String("abc");
 //        String s2= new String("abc");

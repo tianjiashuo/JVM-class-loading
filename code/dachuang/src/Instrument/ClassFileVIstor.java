@@ -21,6 +21,7 @@ public class ClassFileVIstor extends ClassVisitor {
     public static String className;
     private int MethodNumer = 0;
     private int FieldNumber = 0;
+    private StringBuffer sb = new StringBuffer("");
 
     @Override
     public void visit(int version, int access, String name, String signature, String superName, String[] interfaces) {
@@ -41,12 +42,24 @@ public class ClassFileVIstor extends ClassVisitor {
 //        System.out.println("name:"+name);
 //        System.out.println("value:"+value);
 //        System.out.println("desc:"+desc);
-        Map<String,String> Field = new HashMap<>();
-        Field.put("access:",access+"");
-        Field.put("name:",name);
-        Field.put("value:",value.toString());
-        Field.put("desc:",desc);
-        this.Infomation.put("FieldVisitor"+this.FieldNumber,Field);
+        try {
+            Map<String,String> Field = new HashMap<>();
+            Field.put("access:",access+"");
+            Field.put("name:",name);
+            Field.put("value:",value.toString());
+            Field.put("desc:",desc);
+            this.Infomation.put("FieldVisitor"+this.FieldNumber,Field);
+            System.out.println("FieldVisitor"+this.FieldNumber + " " + Field.toString());
+            String s = "FieldVisitor"+this.FieldNumber + " " + Field.toString() + System.getProperty("line.separator");
+            sb.append(s);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+//        System.out.println("access: " + access);
+//        System.out.println("name: " + name);
+//        System.out.println("value: " + value.toString());
+//        System.out.println("desc: " + desc);
+//        System.out.println(name + " is visited");
         this.FieldNumber++;
         return cv.visitField(access, name, desc, signature, value);
     }
@@ -66,6 +79,9 @@ public class ClassFileVIstor extends ClassVisitor {
         Method.put("desc:",desc);
         Method.put("clsaaName:",className);
         this.Infomation.put("MethodVisitor"+this.MethodNumer,Method);
+        System.out.println("MethodVisitor"+this.MethodNumer + " " + Method.toString());
+        sb.append("MethodVisitor"+this.MethodNumer + " " + Method.toString() + System.getProperty("line.separator"));
+//        System.out.println(name + " is visited");
         this.MethodNumer++;
 //        BufferedWriter out = null;
 //        try {
@@ -83,5 +99,8 @@ public class ClassFileVIstor extends ClassVisitor {
 
     public Map<String,Map> getField_MethodInfor(){
         return this.Infomation;
+    }
+    public String getResult(){
+        return this.sb.toString();
     }
 }
