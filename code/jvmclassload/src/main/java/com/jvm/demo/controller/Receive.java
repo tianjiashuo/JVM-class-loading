@@ -1,11 +1,12 @@
 package com.jvm.demo.controller;
 
-import com.jvm.demo.Entity.AreaVo;
-import com.jvm.demo.Entity.HeapVo;
-import com.jvm.demo.Entity.JvmStackVo;
-import com.jvm.demo.Entity.MethodAreaVo;
+import com.jvm.demo.Entity.*;
+import com.jvm.demo.service.ReceiveService;
+import com.jvm.demo.utils.R;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,6 +14,9 @@ import java.util.Map;
 @RequestMapping("/code")
 @CrossOrigin
 public class Receive {
+
+    @Autowired
+    private ReceiveService receiveService;
 
     public Map<Integer, AreaVo> getInfo() {
         Map<Integer, AreaVo> map = new HashMap<>();
@@ -48,4 +52,16 @@ public class Receive {
     public Map<Integer, AreaVo> receive(@RequestBody String code){
         return getInfo();
     }
+
+    @RequestMapping("/fromId")
+    public R receiveFromId(@RequestParam("id") int id){
+        if (receiveService.receiveById(id) == null){
+            System.out.println("wrong");
+        }else{
+            System.out.println(receiveService.receiveById(id).toString());
+        }
+        return R.ok().put("文件内容是",receiveService.receiveById(id).toString());
+    }
+
+
 }
