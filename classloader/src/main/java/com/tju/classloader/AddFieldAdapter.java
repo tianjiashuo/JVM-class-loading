@@ -38,5 +38,9 @@ public class AddFieldAdapter extends ClassVisitor{
         cv.visitEnd();
     }
 
+    public static void main(String[] args) {
+        
+    }
+
     
 }

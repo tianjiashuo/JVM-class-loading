@@ -45,6 +45,11 @@ public class ClassPrinter extends ClassVisitor {
     @Override
     public FieldVisitor visitField(int access, String name, String descriptor, String signature, Object value) {
         System.out.println("   " + descriptor + " " + name);
+        // FieldVisitor fv = cv.visitField(ACC_PUBLIC, "a", "int", null, 0);
+        // if (fv != null) {
+        //     System.out.println("有");
+        //     fv.visitEnd();
+        // }
         return null;
     }
 
