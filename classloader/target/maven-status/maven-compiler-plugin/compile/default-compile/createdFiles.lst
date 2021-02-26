@@ -1,3 +1,4 @@
+com\tju\classloader\VisitHeapByCmd.class
 com\tju\classloader\AddFieldTest$1.class
 com\tju\classloader\ClassLoaderTest$1.class
 com\tju\classloader\B_visitContent$1.class
