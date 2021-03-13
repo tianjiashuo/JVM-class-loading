@@ -45,8 +45,10 @@ public class VisitHeapByCmd {
             if(line[i].contains("VisitHeapByCmd")){
                 index = i;
             }
+//            if(line[i].contains("WorkattendanceApplication")){
+//                index = i;
+//            }
         }
-//        System.out.println(line[index]);
         String targetPid = line[index];
         String pid = targetPid.split("\\s+")[0];
 //        System.out.println(pid);

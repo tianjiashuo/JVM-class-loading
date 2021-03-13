@@ -27,8 +27,8 @@ public class Bank {
         if (real()){
             sayNothing();
             System.out.println(count());
-            add add = new add();
-            add.addcd();
+//            add add = new add();
+//            add.addcd();
         }
         meiyou();
     }
