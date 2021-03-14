@@ -19,27 +19,6 @@ public  class Instrumentor {
             return false;
     }
 
-    public static void printTrack() {
-        String result = null;
-        StackTraceElement[] st = Thread.currentThread().getStackTrace();
-        if (st == null) {
-            System.out.println("无栈...");
-            return;
-        }
-        StringBuffer sbf = new StringBuffer();
-        for (StackTraceElement e : st) {
-            if (sbf.length() > 0) {
-                sbf.append(" <- ");
-            }
-            if ((!(e.toString().contains("StackTrace"))) && (!(e.toString().contains("printTrack")))){
-                sbf.append(java.text.MessageFormat.format("{0}.{1}() {2}", e.getClassName(), e.getMethodName(),
-                        e.getLineNumber()));
-            }
-        }
-        result = sbf.toString();
-        System.out.println(result);
-    }
-
     public static void premain(String agentArgs, Instrumentation inst){
         StringBuffer realString = new StringBuffer("");
         inst.addTransformer(new ClassFileTransformer() {
@@ -47,28 +26,28 @@ public  class Instrumentor {
             public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
                 if(shouldInstrument(className)){
 
-                    System.out.println("IN INSTRUMENTOR BEGIN");
-
-                    System.out.println("classname:"+className);
+//                    System.out.println("IN INSTRUMENTOR BEGIN");
+//
+//                    System.out.println("classname:"+className);
                     ClassReader classReader = new ClassReader(classfileBuffer);
                     ClassWriter classWriter = new ClassWriter(classReader,ClassWriter.COMPUTE_FRAMES);
                     ClassFileVisitor classVisitor = new ClassFileVisitor(classWriter);//绑定
                     classReader.accept(classVisitor,ClassReader.EXPAND_FRAMES);
 
                     classfileBuffer = classWriter.toByteArray();
-                    System.out.println("IN INSTRUMENTOR END");
+//                    System.out.println("IN INSTRUMENTOR END");
 
 
-                    //保存插桩后文件
-                    File file = new File("./src/genClasses/" + className.replace("/",".") + ".class");
-                    FileOutputStream fOutputStream;
-                    try {
-                        fOutputStream = new FileOutputStream(file);
-                        fOutputStream.write(classfileBuffer);
-                        fOutputStream.close();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+//                    保存插桩后文件
+//                    File file = new File("./src/genClasses/" + className.replace("/",".") + ".class");
+//                    FileOutputStream fOutputStream;
+//                    try {
+//                        fOutputStream = new FileOutputStream(file);
+//                        fOutputStream.write(classfileBuffer);
+//                        fOutputStream.close();
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
                 }
 
 

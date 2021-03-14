@@ -7,6 +7,8 @@ import com.jvm.demo.service.ReceiveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.Serializable;
+
 /**
  * @author qz
  */
@@ -17,6 +19,11 @@ public class ReceiveServiceImpl extends ServiceImpl<ReceiveDao,ReceiveEntity> im
 
     @Override
     public ReceiveEntity receiveById(int id) {
+        return receiveService.getById(id);
+    }
+
+    @Override
+    public ReceiveEntity getById(Serializable id) {
         return receiveService.getById(id);
     }
 }

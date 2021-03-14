@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Agent" />
+      <artifact name="dachuang" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -28,180 +28,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="这里写的文件有点问题，不知道为啥">
-      <change afterPath="$PROJECT_DIR$/src/Instrument/ClassFileVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dachuang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/launch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test/test/want.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/want.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/Uyk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/Uyk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/launch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/urt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2020-12-25.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-11.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-12.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-13.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/Uyk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/launch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/urt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toFileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dachuang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dachuang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/ClassFileVIstor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/InstrumentHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/Instrument/InstrumentHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodBodyVisit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodBodyVisit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodVistor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/result/qz.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/result/qzhhh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/result/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test/Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test/add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/runtime/JLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dachuang/test/runtime/JLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/ClassFileVIstor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Agent/Agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/artifacts/Agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/ClassFileVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/InstrumentHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodBodyVisit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/dachuang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/lib/Agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/lib/jdk.internal.org.objectweb.asm-1.8.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/loadFromLocal/loadFromLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/asmT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/runtime/JLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/print.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instrument/ClassFileVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/ClassFileVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Instrument/InstrumentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/InstrumentHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Instrument/Instrumentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/Instrumentor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Instrument/MethodBodyVisit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/MethodBodyVisit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/MethodVistor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/MethodVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$CaptureInstrumentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$CaptureTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$FieldKeyProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$InstrumentPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$KeyProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent$ParamKeyProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureStorage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.debugger.agent.CaptureStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.execution.application.AppMainV2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.execution.application.AppMainV2$Agent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/com.intellij.rt.execution.application.AppMainV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.io.StringReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.Class$MethodArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.ClassValue$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.ClassValue$Identity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.ClassValue$Version.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.ClassValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.IllegalStateException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.NoSuchMethodException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.NumberFormatException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.Shutdown$Lock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.Shutdown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.Void.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.instrument.UnmodifiableClassException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MemberName$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleImpl$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleImpl$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleStatics$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.invoke.MethodHandleStatics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.lang.reflect.InvocationTargetException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.AbstractPlainSocketImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.AbstractPlainSocketImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.DefaultInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Inet4Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Inet6Address$Inet6AddressHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Inet6Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Inet6AddressImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress$Cache$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress$Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress$InetAddressHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddressImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetAddressImplFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetSocketAddress$InetSocketAddressHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InetSocketAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.InterfaceAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.NetworkInterface$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.NetworkInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.PlainSocketImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Proxy$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Proxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.ProxySelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.Socket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocketAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocketException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocketImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocketOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocksConsts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocksSocketImpl$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.SocksSocketImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.StandardSocketOptions$StdSocketOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.StandardSocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.URI$Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.net.URI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.ArrayList$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.Collections$UnmodifiableCollection$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.Collections$UnmodifiableSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.HashMap$HashIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.HashMap$KeyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.HashMap$KeySet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.Properties$LineReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.concurrent.atomic.AtomicBoolean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.function.Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.jar.Attributes$Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.jar.Attributes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/java.util.jar.Manifest$FastInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.ExtendedSocketOptions$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.ExtendedSocketOptions$ExtSocketOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.ExtendedSocketOptions$PlatformSocketOptions$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.ExtendedSocketOptions$PlatformSocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.ExtendedSocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.MacOSXSocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/jdk.net.SocketFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/org.jetbrains.capture.org.objectweb.asm.ClassVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/org.jetbrains.capture.org.objectweb.asm.ClassWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.launcher.LauncherHelper$FXHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.launcher.LauncherHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.misc.ASCIICaseInsensitiveComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.misc.PostVMInitHook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.misc.PostVMInitHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.misc.Signal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.misc.URLClassPath$JarLoader$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.ExtendedSocketOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.NetHooks$Provider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.NetHooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.NetProperties$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.NetProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.sdp.SdpProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.spi.DefaultProxySelector$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.spi.DefaultProxySelector$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.spi.DefaultProxySelector$NonProxyInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.spi.DefaultProxySelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.net.spi.nameservice.NameService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.nio.cs.ThreadLocalCoders$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.nio.cs.ThreadLocalCoders$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.nio.cs.ThreadLocalCoders$Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.nio.cs.ThreadLocalCoders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.security.action.GetBooleanAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.usagetracker.UsageTrackerClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.usagetracker.UsageTrackerClient$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.usagetracker.UsageTrackerClient$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/sun.usagetracker.UsageTrackerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instrument/MethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/MethodVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genClasses/test.Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/genClasses/test.Bank.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/genClasses/test.add.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/genClasses/test.add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/result/qz.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/result/qzhhh.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/result/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loadFromLocal/loadFromLocal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/runtime/JLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runtime/JLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/result/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/print.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/file/dest" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/file/dest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/tju/classloader/AddFieldAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/tju/classloader/AddFieldAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/tju/classloader/ClassPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/com/tju/classloader/ClassPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/AddFieldTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/B_visitContentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassLoaderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassLoaderTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassLoaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ClassPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/Comparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ComparableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/ComparableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/MyClassLoader$StubClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/MyClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/RemoveMethodAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/RemoveMethodAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/TestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/com/tju/classloader/TestException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/test-classes/com/tju/classloader/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/com/tju/classloader/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/JvmStackVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/JvmStackVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/Receive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/impl/ReceiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/impl/ReceiveServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/source/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/source/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toClassUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +113,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/tianjiashuo/JVM-class-loading" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1hrIckmDfr1qQKumF1EeqrUvo5M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -228,42 +138,31 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\大创\code\dachuang\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bank">
-    <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.Add" />
-      <module name="dachuang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.launch">
     <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Bank" />
       <module name="dachuang" />
@@ -278,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.add" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="dachuang" />
       <extension name="coverage">
         <pattern>
@@ -291,13 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loadFromLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loadFromLocal.loadFromLocal" />
+    <configuration name="add" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.add" />
       <module name="dachuang" />
       <option name="VM_PARAMETERS" value="-javaagent:lib/agent.jar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loadFromLocal.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +204,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1.test1" />
+    <configuration name="launch" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.launch" />
+      <module name="dachuang" />
+      <option name="VM_PARAMETERS" value="-javaagent:lib/agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mytest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.mytest" />
       <module name="dachuang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1.*" />
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="poly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.poly" />
+      <module name="dachuang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="want" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.want" />
+      <module name="dachuang" />
+      <option name="VM_PARAMETERS" value="-javaagent:lib/agent.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,20 +269,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/zhangqizhou/Desktop/Tmp/Server" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$USER_HOME$/Desktop/Tmp/Server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Add" />
-      <item itemvalue="Application.Bank" />
-      <item itemvalue="Application.loadFromLocal" />
-      <item itemvalue="Application.test1" />
       <item itemvalue="Application.add" />
+      <item itemvalue="Application.Bank" />
+      <item itemvalue="Application.poly" />
+      <item itemvalue="Application.mytest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Gradle./Users/zhangqizhou/Desktop/Tmp/Server" />
+      <item itemvalue="Application.launch" />
+      <item itemvalue="Application.want" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bank" />
-        <item itemvalue="Application.add" />
-        <item itemvalue="Application.Add" />
-        <item itemvalue="Application.loadFromLocal" />
-        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Gradle./Users/zhangqizhou/Desktop/Tmp/Server" />
+        <item itemvalue="Application.mytest" />
+        <item itemvalue="Application.poly" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +331,17 @@
       <workItem from="1610001025171" duration="279000" />
       <workItem from="1611628313229" duration="108000" />
       <workItem from="1611628479338" duration="1857000" />
-      <workItem from="1611630593734" duration="2025000" />
+      <workItem from="1611630593734" duration="18166000" />
+      <workItem from="1613642151778" duration="158000" />
+      <workItem from="1613660192191" duration="83381000" />
+      <workItem from="1614955225723" duration="12338000" />
+      <workItem from="1615254928316" duration="17499000" />
+      <workItem from="1615371261826" duration="4497000" />
+      <workItem from="1615438263196" duration="11126000" />
+      <workItem from="1615461092831" duration="7153000" />
+      <workItem from="1615517823403" duration="11884000" />
+      <workItem from="1615629805033" duration="1378000" />
+      <workItem from="1615633307098" duration="10699000" />
     </task>
     <servers />
   </component>
@@ -394,125 +366,6 @@
     </ignored-roots>
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="449" y="278" key="#Notifications" timestamp="1611628582812">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="449" y="278" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1611628582812" />
-    <state x="209" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609044074526">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="209" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1609044074526" />
-    <state x="532" y="128" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1608871752848">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="532" y="128" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1608871752848" />
-    <state x="538" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1609141752482">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="538" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1609141752482" />
-    <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611628601260">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1611628601260" />
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1605428321219">
-      <screen x="0" y="25" width="1440" height="794" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.25.1440.794@0.25.1440.794" timestamp="1605428321219" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1604583439186">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604583439186" />
-    <state width="1398" height="259" key="GridCell.Tab.0.bottom" timestamp="1609333965260">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.0.bottom/0.0.1024.768@0.0.1024.768" timestamp="1606205079251" />
-    <state width="1398" height="607" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1024.768@0.0.1440.900" timestamp="1606203982532" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1080.746@0.0.1440.900" timestamp="1605336187133" />
-    <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609333965260" />
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
-    <state width="1398" height="259" key="GridCell.Tab.0.center" timestamp="1609333965259">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.0.center/0.0.1024.768@0.0.1024.768" timestamp="1606205079249" />
-    <state width="1398" height="607" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1024.768@0.0.1440.900" timestamp="1606203982530" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1080.746@0.0.1440.900" timestamp="1605336187131" />
-    <state width="1398" height="259" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609333965259" />
-    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
-    <state width="1398" height="259" key="GridCell.Tab.0.left" timestamp="1609333965259">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.0.left/0.0.1024.768@0.0.1024.768" timestamp="1606205079248" />
-    <state width="1398" height="607" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1024.768@0.0.1440.900" timestamp="1606203982529" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1080.746@0.0.1440.900" timestamp="1605336187130" />
-    <state width="1398" height="259" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609333965259" />
-    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
-    <state width="1398" height="259" key="GridCell.Tab.0.right" timestamp="1609333965259">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.0.right/0.0.1024.768@0.0.1024.768" timestamp="1606205079250" />
-    <state width="1398" height="607" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1024.768@0.0.1440.900" timestamp="1606203982531" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1080.746@0.0.1440.900" timestamp="1605336187132" />
-    <state width="1398" height="259" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609333965259" />
-    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604583053865" />
-    <state width="1398" height="314" key="GridCell.Tab.1.bottom" timestamp="1609044421237">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.1.bottom/0.0.1024.768@0.0.1024.768" timestamp="1606205079254" />
-    <state width="1398" height="314" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609044421237" />
-    <state width="1398" height="314" key="GridCell.Tab.1.center" timestamp="1609044421235">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.1.center/0.0.1024.768@0.0.1024.768" timestamp="1606205079253" />
-    <state width="1398" height="314" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1609044421235" />
-    <state width="1398" height="314" key="GridCell.Tab.1.left" timestamp="1609044421235">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.1.left/0.0.1024.768@0.0.1024.768" timestamp="1606205079252" />
-    <state width="1398" height="314" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1609044421235" />
-    <state width="1398" height="314" key="GridCell.Tab.1.right" timestamp="1609044421236">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="982" height="251" key="GridCell.Tab.1.right/0.0.1024.768@0.0.1024.768" timestamp="1606205079253" />
-    <state width="1398" height="314" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1609044421236" />
-    <state x="407" y="174" key="RollbackChangesDialog" timestamp="1605335256441">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="407" y="174" key="RollbackChangesDialog/0.0.1440.900/1440.0.1080.746@0.0.1440.900" timestamp="1605335256441" />
-    <state x="73" y="0" width="1246" height="824" key="SettingsEditor" timestamp="1609325271915">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="73" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609325271915" />
-    <state x="78" y="0" width="1246" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604395634782" />
-    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1605431860501">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1605431860501" />
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog" timestamp="1604565581616">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="241" width="614" height="324" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604565581616" />
-    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605441778981">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="521" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605441778981" />
-    <state x="257" y="191" width="926" height="626" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605430400498">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="257" y="191" width="926" height="626" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605430400498" />
-    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1609138424824">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1609138424824" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1611628540898">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1611628540898" />
-    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605336812682">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1605336812682" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -520,6 +373,49 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/mytest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/mytest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Instrument/MethodBodyVisit.java</url>
+          <line>298</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Instrument/Instrumentor.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/add.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/Bank.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/runtime/JLogger.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/runtime/JLogger.java</url>
+          <line>70</line>
+          <properties class="test.runtime.JLogger" method="dataToMapBeta">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

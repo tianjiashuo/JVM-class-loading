@@ -1,15 +1,13 @@
 package com.jvm.demo.controller;
 
-import com.jvm.demo.Entity.*;
 import com.jvm.demo.service.ReceiveService;
 import com.jvm.demo.utils.R;
 import com.jvm.demo.utils.toClassUtil;
+import com.jvm.demo.utils.toFileUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,6 +18,9 @@ public class Receive {
 
     @Autowired
     private ReceiveService receiveService;
+    private static String myAddress = "/Users/zhangqizhou/Desktop/Tmp/Server/testcase/test/";
+
+    private String classFile;
 
     private final static String file = new String("/Users/zhangqizhou/Documents/JavaVirtualMachines/JVM-class-loading/classloader/code/jvmclassload/file/dest");
     private final static String result = new String("/Users/zhangqizhou/Documents/JavaVirtualMachines/JVM-class-loading/classloader/code/jvmclassload/result");
@@ -56,38 +57,14 @@ public class Receive {
         return xml;
     }
 
-    public Map<Integer, AreaVo> getInfo() {
-        Map<Integer, AreaVo> map = new HashMap<>();
-        map.put(1, null);
-        map.put(2, null);
-        long[] param = {0, 1};
-        map.put(3, MethodAreaVo.builder().area("MethodArea").ClassName("com/jvm/demo/source/Add")
-                .method(new String[]{"addcd()", "add()"}).pool(param).build());
-        map.put(4, MethodAreaVo.builder().area("MethodArea").type("int").MethodName("a").value("0").build());
-        map.put(5, MethodAreaVo.builder().area("MethodArea").MethodName("b").type("int").value("1").build());
-        map.put(6, null);
-        map.put(7, HeapVo.builder().area("Heap").name("c").value("3").type("int").build());
-        map.put(8, HeapVo.builder().area("Heap").name("d").value("4").type("int").build());
-        map.put(9, null);
-        map.put(10, null);
-        map.put(11, null);
-        map.put(12, null);
-        map.put(13, null);
-        map.put(14, null);
-        map.put(15, null);
-        map.put(16, null);
-        map.put(17, null);
-        map.put(18, MethodAreaVo.builder().area("MethodArea").method(new String[]{"main"}).type("void").param(new String[]{"String[] args"}).build());
-        map.put(19, JvmStackVo.builder().area("JvmStack").methodName("add").build());
-        map.put(20, JvmStackVo.builder().area("JvmStack").referenceName("add").type("Add").build());
-        map.put(21, HeapVo.builder().area("Heap").name("add").type("Add").build());
-        map.put(22, JvmStackVo.builder().area("JvmStack").type("int").methodName("addcd").build());
-        map.put(23, null);
+    public Map<Object, Object> getInfo() {
+        Map<Object, Object> map = new HashMap<>();
+        map = toFileUtil.getHashMapFromTextFile();
         return map;
     }
 
-    @PostMapping("/receive")
-    public Map<Integer, AreaVo> receive(@RequestBody String code){
+    @RequestMapping("/receive")
+    public Map<Object, Object> receive(){
         return getInfo();
     }
 
@@ -101,28 +78,47 @@ public class Receive {
         return R.ok().put("文件内容是",receiveService.receiveById(id).toString());
     }
 
-    @PostMapping("/save")
-    public R saveFile(@RequestParam("file") MultipartFile zipFile) throws IOException {
-        String data = zipFile.getOriginalFilename();
-        System.out.println(data);
-        String[] datas = data.split("\\.");
-        System.out.println(datas[0]);
-        //这个方法是把内容写到address（file下的dest文本）里面
-        zipFile.transferTo(new File(file));
-        //调用这个方法读取address里面内容
-        String content = getContent(file);
-        //创建result文件夹和对应java文件
-        toClassUtil.create(result,data);
-        //copy文件address(.txt) --> result(.java)下的对应文件
-        toClassUtil.copyFile(file,result+"/"+data,1);
-        //编译文件(.java->.class)
-        toClassUtil.toClass(forClass,result+"/"+data);
-        //反编译class文件(.class->bytecode)
-        String vclass = toClassUtil.javapClass(forClass+"/" + datas[0]);
-        ReceiveEntity rn = ReceiveEntity.builder().fileName(data).content(content).vclass(vclass).build();
-        //保存到数据库
-        receiveService.save(rn);
-        return R.ok("文件上传成功");
+//    @PostMapping("/analyse")
+//    public Map<Object,Object> saveFile(@RequestParam("file") MultipartFile zipFile) throws IOException, InterruptedException {
+//        String data = zipFile.getOriginalFilename();
+//        System.out.println(data);
+//        String[] datas = data.split("\\.");
+//        System.out.println(datas[0]);
+//        //这个方法是把内容写到address（file下的dest文本）里面
+//        zipFile.transferTo(new File(file));
+//        //调用这个方法读取address里面内容
+//        String content = getContent(file);
+//        //创建result文件夹和对应java文件
+//        toClassUtil.create(result,data);
+//        //copy文件address(.txt) --> result(.java)下的对应文件
+//        toClassUtil.copyFile(file,result+"/"+data,1);
+//        //编译文件(.java->.class)
+//        toClassUtil.toClass(forClass,result+"/"+data);
+//        //反编译class文件(.class->bytecode)
+//        String vclass = toClassUtil.javapClass(forClass+"/" + datas[0]);
+//        classFile = vclass;
+//        //保存到指定文件位置Desktop/Tmp/Server/testcase/test
+//        toFileUtil.StoreInFile(classFile,"/Users/zhangqizhou/Desktop/Tmp/Server/testcase/test/"+datas[0]+".class");
+//        //获取分析结果,文件分析结果放在了指定文件里Map<Object,Object>形式
+//        toClassUtil.toJar("Desktop/Tmp/Server/",datas[0]);
+//        //读取分析结果返回Map
+//        Map<Object,Object> analyze;
+//        analyze = toFileUtil.getHashMapFromTextFile();
+//        //保存到数据库
+//        ReceiveEntity rn = ReceiveEntity.builder().fileName(data).content(content).vclass(vclass).build();
+//        receiveService.save(rn);
+//        return analyze;
+//    }
+
+    @PostMapping ("/analyze")
+    public Map<Object,Object> analyzeFile(@RequestParam("content") String content,@RequestParam("fileName") String fileName) throws IOException, InterruptedException {
+        toFileUtil.StoreInFile(content,myAddress +fileName+".java");
+        toClassUtil.execute(fileName);
+        toClassUtil.toJar("Desktop/Tmp/Server/",fileName);
+        //读取分析结果返回Map
+        Map<Object,Object> analyze;
+        analyze = toFileUtil.getHashMapFromTextFile();
+        return analyze;
     }
 
 }

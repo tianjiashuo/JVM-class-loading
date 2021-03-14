@@ -2,6 +2,8 @@ package com.jvm.demo.Entity;
 
 import lombok.*;
 
+import java.util.ArrayList;
+
 @Data
 @Builder
 @EqualsAndHashCode
@@ -11,8 +13,11 @@ import lombok.*;
 * 3. 对象类型*/
 public class JvmStackVo extends AreaVo{
     private String area = "JvmStack";
-    private String referenceName;
-    private String type;
+//    private String referenceName;
+//    private String type;
+//    private String methodName;
+//    private String[] innerMethodName;
     private String methodName;
-    private String[] args;
+    private ArrayList chain;
+
 }

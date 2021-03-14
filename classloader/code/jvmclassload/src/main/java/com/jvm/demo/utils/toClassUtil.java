@@ -5,11 +5,17 @@ import java.io.*;
 public class toClassUtil {
 //    private static final String dest = "/Users/zhangqizhou/Documents/JavaVirtualMachines/JVM-class-loading/classloader/code/jvmclassload/src/main/resources/class/";
 
+    /**
+     * 编译.java文件成.class文件
+     * @param dest
+     * @param filename
+     */
     public static void toClass(String dest,String filename) {
         try {
+            Process first = Runtime.getRuntime().exec("cd " + dest);
+            System.out.println("cd " + dest);
             Process process = Runtime.getRuntime().exec("javac " + "-d " + dest + " " + filename);
             System.out.println("javac " + "-d " + dest + " " + filename);
-            System.out.println("编译成功");
             InputStream in = null;
             in = process.getInputStream();
             BufferedReader read = new BufferedReader(new InputStreamReader(in, "GBK"));
@@ -19,9 +25,19 @@ public class toClassUtil {
             while ((line = read.readLine()) != null) {
                 System.out.println(line);
             }
+            System.out.println("编译成功");
         } catch (IOException e) {
             System.out.println("编译失败");
         }
+    }
+
+    public static void execute(String filename) throws IOException, InterruptedException {
+        File f = new File(System.getProperty("user.home"), "Desktop/Tmp/Server/testcase/test");
+        ProcessBuilder pb = new ProcessBuilder().directory(f);
+        pb.inheritIO();
+        pb.command("javac", filename+".java");
+        Process p = pb.start();
+        p.waitFor();
     }
 
     public static String javapClass(String dest){
@@ -79,4 +95,16 @@ public class toClassUtil {
             }
         }
     }
+
+    //获得分析结果，这里要记得修改下jar的位置
+    public static void toJar(String address,String fileName) throws IOException, InterruptedException {
+        File f = new File(System.getProperty("user.home"), address);
+        ProcessBuilder pb = new ProcessBuilder().directory(f);
+        pb.inheritIO();
+        pb.command("java", "-javaagent:lib/Agent.jar",
+                "-cp", "./Dachuang/dachuang.jar:testcase", "test."+fileName);
+        Process p = pb.start();
+        p.waitFor();
+    }
+
 }

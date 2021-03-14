@@ -30,4 +30,6 @@ public class MethodVisitor extends AdviceAdapter implements Opcodes {
         System.out.println("owner:"+owner);
         mv.visitFieldInsn(opcode, owner, name, desc);
     }
+
+
 }

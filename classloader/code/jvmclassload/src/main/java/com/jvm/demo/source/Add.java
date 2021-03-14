@@ -18,7 +18,6 @@ public class Add {      //Add放入方法区
     public static void main(String[] args) {//main进入方法区，这时候main方法进入execute子系统
         add();
         Add add = new Add();
-        //add引用放入栈区， add对象放入堆区
         System.out.println(add.addcd());//
     }
 }
