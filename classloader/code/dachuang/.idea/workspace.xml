@@ -28,76 +28,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="这里写的文件有点问题，不知道为啥">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dachuang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/dachuang/dachuang.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/launch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test/test/want.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/want.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/Add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/Uyk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/Add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/Uyk.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/test/launch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/forClass/urt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2020-12-25.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-11.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-12.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log.2021-03-13.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/Uyk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/launch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/result/urt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toFileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Agent/Agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/artifacts/Agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/ClassFileVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/InstrumentHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/Instrumentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodBodyVisit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/Instrument/MethodVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/dachuang.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/lib/Agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/lib/jdk.internal.org.objectweb.asm-1.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/loadFromLocal/loadFromLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/asmT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test/runtime/JLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/print.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dachuang/test1/test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/ClassFileVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/ClassFileVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/InstrumentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/InstrumentHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/Instrumentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/Instrumentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/MethodBodyVisit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/MethodBodyVisit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Instrument/MethodVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instrument/MethodVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/test.Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/genClasses/test.Bank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genClasses/test.add.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/genClasses/test.add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loadFromLocal/loadFromLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/runtime/JLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runtime/JLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1/add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/result/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1/print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1/test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/file/dest" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/file/dest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/JvmStackVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/Entity/JvmStackVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/controller/Receive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/impl/ReceiveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/service/impl/ReceiveServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/source/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/source/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jvmclassload/src/main/java/com/jvm/demo/utils/toClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/artifacts/agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/ASMTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/lib/agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/out/artifacts/agent/agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/ClassFileVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/InstrumentHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/Instrumentor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/MethodBodyVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/plugins/JLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/genClasses/test.Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/genClasses/test.Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/loadFromLocal/loadFromLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/ClassFileVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/InstrumentHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/Instrumentor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/Instrumentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/MethodBodyVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/loadFromLocal/loadFromLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/plugins/JLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../code/jvmclassload/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file/dest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file/dest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file/origin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../file/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
