@@ -27,47 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="这里写的文件有点问题，不知道为啥">
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/artifacts/agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/ASMTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/lib/agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/out/artifacts/agent/agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/ClassFileVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/InstrumentHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/Instrumentor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/Instrument/MethodBodyVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/plugins/JLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/genClasses/test.Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/genClasses/test.Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/loadFromLocal/loadFromLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/src/test/java/test/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/ClassFileVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/InstrumentHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/Instrumentor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/Instrumentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/Instrument/MethodBodyVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/loadFromLocal/loadFromLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/plugins/JLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASMTest1/target/classes/test/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../code/jvmclassload/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../file/dest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../file/dest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../file/origin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../file/test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9caeff79-6265-4860-b73b-529752626794" name="Default Changelist" comment="这里写的文件有点问题，不知道为啥" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
